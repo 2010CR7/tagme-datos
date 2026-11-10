@@ -1,0 +1,9 @@
+{
+  "updated": "2026-11-10",
+  "items": [
+    { "kind": "aviso", "text": "Sin TAG: el Pase Diario fue reemplazado por el Pago Tardío (PTT); se paga en cada autopista", "date": "2025-07-01", "url": "https://www.meganoticias.cl/dato-util/520024-fin-pase-diario-unico-nuevo-sistema-cambio-sin-tag-multas-21-04-2026.html" },
+    { "kind": "precio", "text": "Las tarifas de autopistas se reajustan cada 1 de enero; TagMe carga los cuadros nuevos apenas se publican" },
+    { "kind": "noticia", "text": "Rebaja de TAG: el Gobierno evalúa medidas, aún sin monto ni fecha", "date": "2026-04-10", "url": "https://www.meganoticias.cl/nacional/519162-rebaja-en-los-tag-y-peajes-10-04-2026.html" },
+    { "kind": "aviso", "text": "Permiso de circulación: se paga en febrero y marzo; necesitas SOAP vigente y no tener multas impagas", "url": "https://www.chileatiende.gob.cl/fichas/9611-permiso-de-circulacion" }
+  ]
+}
