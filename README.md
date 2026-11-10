@@ -14,3 +14,13 @@ Formato de cada elemento de `items`:
 | `url` | no | solo `https://`, fuente oficial o de prensa |
 
 Reglas: solo información pública y verificable; lenguaje neutral ("posible inconsistencia", nunca acusaciones).
+
+## Tarifas oficiales
+
+- `tarifas/2026.json`: cuadros tarifarios 2026 de cada autopista, transcritos de los PDF oficiales (ver `sources`). La app lo trae incluido y descarga la versión nueva cuando cambia `version`.
+- `tools/build_tarifas.py`: genera el archivo. Para actualizar: corregir los datos en el script y ejecutar `python3 tools/build_tarifas.py`. Subir `version` (formato `AAAA.MM.DD`).
+- Pendientes: Costanera Norte, Ruta 68 y autopistas interurbanas fuera de la RM.
+
+## Reportes de la comunidad
+
+Los reportes de cobros mayores a la tarifa oficial llegan como issues con la etiqueta `reporte-tarifa`. No contienen patente, RUT ni fecha exacta. Antes de confirmarlos se revisan contra el cuadro oficial; el lenguaje es siempre neutral ("posible cobro a revisar").
