@@ -14,7 +14,7 @@ jobs:
           (
             node["highway"="toll_gantry"](-34.2,-71.8,-32.9,-70.2);
             node["barrier"="toll_booth"](-34.2,-71.8,-32.9,-70.2);
-            way["highway"~"^(motorway|trunk)$"]["toll"="yes"](-33.75,-71.0,-33.2,-70.4);
+            way["highway"~"^(motorway|motorway_link|trunk|trunk_link)$"](-33.80,-71.0,-33.15,-70.40);
           );
           out body geom;'
           mkdir -p osm
