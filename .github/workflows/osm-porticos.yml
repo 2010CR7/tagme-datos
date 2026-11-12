@@ -1,0 +1,32 @@
+name: Pórticos desde OpenStreetMap
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar pórticos, peajes y autopistas de la RM (Overpass)
+        run: |
+          Q='[out:json][timeout:180];
+          (
+            node["highway"="toll_gantry"](-34.2,-71.8,-32.9,-70.2);
+            node["barrier"="toll_booth"](-34.2,-71.8,-32.9,-70.2);
+            way["highway"~"^(motorway|trunk)$"]["toll"="yes"](-33.75,-71.0,-33.2,-70.4);
+          );
+          out body geom;'
+          for i in 1 2 3 4; do
+            curl -sSf -m 240 --data-urlencode "data=$Q" https://overpass-api.de/api/interpreter -o osm/rm_raw.json && break
+            sleep 30
+          done
+          python3 -c "import json;d=json.load(open('osm/rm_raw.json'));print(len(d['elements']))"
+      - name: Guardar en la rama osm
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B osm
+          git add -f osm/rm_raw.json
+          git commit -m "Datos OSM de pórticos (© colaboradores de OpenStreetMap, ODbL)"
+          git push -f origin osm
