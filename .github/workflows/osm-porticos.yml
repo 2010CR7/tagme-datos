@@ -8,27 +8,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Descargar pórticos, peajes y autopistas de la RM (Overpass)
+      - name: Descargar pórticos y red de autopistas de la RM (Overpass)
         run: |
-          Q='[out:json][timeout:180];
-          (
-            node["highway"="toll_gantry"](-34.2,-71.8,-32.9,-70.2);
-            node["barrier"="toll_booth"](-34.2,-71.8,-32.9,-70.2);
-            way["highway"~"^(motorway|motorway_link|trunk|trunk_link)$"](-33.80,-71.0,-33.15,-70.40);
-          );
-          out body geom;'
           mkdir -p osm
           UA="tagme-datos/1.0 (+https://github.com/2010CR7/tagme-datos)"
-          for url in https://overpass-api.de/api/interpreter https://overpass.private.coffee/api/interpreter https://overpass.kumi.systems/api/interpreter; do
-            curl -sSf -m 240 -A "$UA" -H "Accept: application/json" --data-urlencode "data=$Q" "$url" -o osm/rm_raw.json && break
-            sleep 20
-          done
-          python3 -c "import json;d=json.load(open('osm/rm_raw.json'));print(len(d['elements']))"
+          get() {
+            for try in 1 2 3; do
+              for url in https://overpass-api.de/api/interpreter https://overpass.private.coffee/api/interpreter https://maps.mail.ru/osm/tools/overpass/api/interpreter; do
+                curl -sSf -m 400 -A "$UA" -H "Accept: application/json" --data-urlencode "data=$1" "$url" -o "$2" && python3 -c "import json,sys;print(sys.argv[1],len(json.load(open(sys.argv[1]))['elements']))" "$2" && return 0
+                sleep 15
+              done
+            done
+            return 1
+          }
+          get '[out:json][timeout:120];(node["highway"="toll_gantry"](-34.2,-71.8,-32.9,-70.2);node["barrier"="toll_booth"](-34.2,-71.8,-32.9,-70.2););out body;' osm/rm_gantries.json
+          get '[out:json][timeout:300];way["highway"~"^(motorway|motorway_link|trunk|trunk_link)$"](-33.80,-71.0,-33.15,-70.40);out body;>;out skel qt;' osm/rm_roads.json
       - name: Guardar en la rama osm
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B osm
-          git add -f osm/rm_raw.json
-          git commit -m "Datos OSM de pórticos (© colaboradores de OpenStreetMap, ODbL)"
+          git add -f osm/rm_gantries.json osm/rm_roads.json
+          git commit -m "Datos OSM de pórticos y autopistas (© colaboradores de OpenStreetMap, ODbL)"
           git push -f origin osm
