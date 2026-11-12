@@ -310,13 +310,24 @@ def r78():
 def main():
     pack = {
         "schema": 1,
-        "version": "2026.11.10",
+        "version": "2026.11.12",
         "fetched": FETCHED,
         "sources": [{"id": i, "owner": o, "url": u, "title": t} for i, o, u, t in SOURCES],
         "holidays": [{"date": a, "name": b} for a, b in HOLIDAYS],
         "concessions": [ac(), vs(), avn(), tsc(), an(), avo(), amb(), r78()],
         "pending": ["Costanera Norte", "Ruta 68", "autopistas interurbanas fuera de la RM"],
     }
+    # Coordenadas de OpenStreetMap (tools/build_osm.py): pos = [[lat, lon, rumbo que paga], ...]
+    osm = ROOT / "osm" / "porticos_rm.json"
+    if osm.exists():
+        o = json.loads(osm.read_text())
+        for c in pack["concessions"]:
+            for g in c["gantries"]:
+                pos = o["placed"].get(c["id"], {}).get(g["code"])
+                if pos:
+                    g["pos"] = pos
+        pack["pendingGantries"] = o["pending"]
+        pack["mapLicense"] = o["license"]
     out = ROOT / "tarifas" / "2026.json"
     out.write_text(json.dumps(pack, ensure_ascii=False, separators=(",", ":")))
     n = sum(len(c["gantries"]) for c in pack["concessions"])

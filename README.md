@@ -24,3 +24,10 @@ Reglas: solo información pública y verificable; lenguaje neutral ("posible inc
 ## Reportes de la comunidad
 
 Los reportes de cobros mayores a la tarifa oficial llegan como issues con la etiqueta `reporte-tarifa`. No contienen patente, RUT ni fecha exacta. Antes de confirmarlos se revisan contra el cuadro oficial; el lenguaje es siempre neutral ("posible cobro a revisar").
+
+## Mapa de pórticos y red de rutas (OpenStreetMap)
+
+- `osm/porticos_rm.json`: coordenadas y rumbo de cobro de cada pórtico, cruzados con `tarifas/2026.json` por su código.
+- `tarifas/rutas_rm.json`: red simplificada de autopistas, troncales y enlaces de la RM para calcular rutas en el teléfono.
+- Se generan con el flujo **Pórticos desde OpenStreetMap** (descarga desde Overpass a la rama `osm`) y `python3 tools/build_osm.py <rm_gantries.json> <rm_roads.json>`; luego `python3 tools/build_tarifas.py` agrega las coordenadas al paquete.
+- Datos © colaboradores de OpenStreetMap, licencia [ODbL](https://www.openstreetmap.org/copyright).
