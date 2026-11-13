@@ -1,0 +1,42 @@
+name: Red vial de Chile (OpenStreetMap)
+# Arma la red de autopistas, troncales y rutas principales de todo Chile para calcular rutas en el teléfono.
+# Fuente fija: extracto de Chile de Geofabrik (datos © colaboradores de OpenStreetMap, ODbL).
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: red-vial
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar osmium
+        run: sudo apt-get update -q && sudo apt-get install -y -q osmium-tool
+      - name: Descargar el extracto de Chile (Geofabrik)
+        run: |
+          curl -sSfL --retry 3 -A "tagme-datos/1.0 (+https://github.com/2010CR7/tagme-datos)" \
+            -o chile.osm.pbf https://download.geofabrik.de/south-america/chile-latest.osm.pbf
+          ls -lh chile.osm.pbf
+      - name: Filtrar vías principales y casetas de peaje
+        run: |
+          osmium tags-filter chile.osm.pbf \
+            w/highway=motorway,motorway_link,trunk,trunk_link,primary,primary_link \
+            n/barrier=toll_booth n/highway=toll_gantry -o red.osm.pbf
+          osmium cat red.osm.pbf -f opl -o red.opl
+          ls -lh red.osm.pbf red.opl
+      - name: Construir grafo
+        run: python3 tools/build_red_cl.py red.opl
+      - name: Guardar en la rama osm
+        run: |
+          cp tarifas/rutas_cl.bin osm/peajes_vias.json /tmp/
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin osm && git checkout -q -B osm origin/osm || git checkout -q --orphan osm
+          mkdir -p osm && cp /tmp/rutas_cl.bin /tmp/peajes_vias.json osm/
+          git add -f osm/rutas_cl.bin osm/peajes_vias.json
+          git commit -q -m "Red vial de Chile y vías de los peajes (© colaboradores de OpenStreetMap, ODbL)"
+          git push -q origin osm
