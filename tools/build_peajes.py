@@ -104,6 +104,9 @@ def main(src):
         })
         road = road_of(c["members"])
         if road: out[-1]["road"] = road
+        # Casetas individuales: la app cobra una lateral solo si la ruta pasa justo por una de ellas (usa el enlace).
+        if len(c["members"]) > 1:
+            out[-1]["pts"] = [[round(m["lat"], 6), round(m["lon"], 6)] for m in c["members"]]
         conc, plaza = regiones.assign(out[-1])
         if conc:
             out[-1]["concession"] = conc["id"]
