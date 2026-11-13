@@ -373,26 +373,6 @@
 },
 {
 "id": "cl-038",
-"name": "Sur Rutas del Pacífico",
-"named": true,
-"kind": "plaza",
-"troncal": true,
-"region": "Valparaíso",
-"lat": -33.06319,
-"lon": -71.43408
-},
-{
-"id": "cl-039",
-"name": "Pórtico",
-"named": false,
-"kind": "portico",
-"troncal": false,
-"region": "Valparaíso",
-"lat": -33.06346,
-"lon": -71.43166
-},
-{
-"id": "cl-040",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -402,7 +382,7 @@
 "lon": -71.54205
 },
 {
-"id": "cl-041",
+"id": "cl-039",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -412,7 +392,7 @@
 "lon": -70.66805
 },
 {
-"id": "cl-042",
+"id": "cl-040",
 "name": "Lampa",
 "named": true,
 "kind": "portico",
@@ -422,7 +402,7 @@
 "lon": -70.75894
 },
 {
-"id": "cl-043",
+"id": "cl-041",
 "name": "Lampa",
 "named": true,
 "kind": "plaza",
@@ -432,7 +412,7 @@
 "lon": -70.75891
 },
 {
-"id": "cl-044",
+"id": "cl-042",
 "name": "San José",
 "named": true,
 "kind": "plaza",
@@ -442,7 +422,7 @@
 "lon": -70.73546
 },
 {
-"id": "cl-045",
+"id": "cl-043",
 "name": "Pórtico 8 - Enlace Lo Pinto",
 "named": true,
 "kind": "portico",
@@ -452,7 +432,7 @@
 "lon": -70.73899
 },
 {
-"id": "cl-046",
+"id": "cl-044",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -462,7 +442,7 @@
 "lon": -70.70266
 },
 {
-"id": "cl-047",
+"id": "cl-045",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -472,7 +452,7 @@
 "lon": -71.41122
 },
 {
-"id": "cl-048",
+"id": "cl-046",
 "name": "Las Canteras",
 "named": true,
 "kind": "portico",
@@ -482,7 +462,7 @@
 "lon": -70.7018
 },
 {
-"id": "cl-049",
+"id": "cl-047",
 "name": "Las Canteras",
 "named": true,
 "kind": "plaza",
@@ -492,7 +472,7 @@
 "lon": -70.70231
 },
 {
-"id": "cl-050",
+"id": "cl-048",
 "name": "Pórtico 6 - Paso Superior La Montaña",
 "named": true,
 "kind": "portico",
@@ -502,7 +482,7 @@
 "lon": -70.72231
 },
 {
-"id": "cl-051",
+"id": "cl-049",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -512,7 +492,7 @@
 "lon": -71.39036
 },
 {
-"id": "cl-052",
+"id": "cl-050",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -522,7 +502,7 @@
 "lon": -70.71211
 },
 {
-"id": "cl-053",
+"id": "cl-051",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -532,7 +512,7 @@
 "lon": -71.36667
 },
 {
-"id": "cl-054",
+"id": "cl-052",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -542,7 +522,7 @@
 "lon": -70.70396
 },
 {
-"id": "cl-055",
+"id": "cl-053",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -552,47 +532,7 @@
 "lon": -70.80168
 },
 {
-"id": "cl-056",
-"name": "Plaza de peaje",
-"named": false,
-"kind": "plaza",
-"troncal": false,
-"region": "Valparaíso",
-"lat": -33.36677,
-"lon": -71.30851
-},
-{
-"id": "cl-057",
-"name": "Pórtico",
-"named": false,
-"kind": "portico",
-"troncal": false,
-"region": "Valparaíso",
-"lat": -33.36901,
-"lon": -71.30323
-},
-{
-"id": "cl-058",
-"name": "Zapata Rutas del Pacífico",
-"named": true,
-"kind": "plaza",
-"troncal": false,
-"region": "Valparaíso",
-"lat": -33.3711,
-"lon": -71.29977
-},
-{
-"id": "cl-059",
-"name": "Plaza de peaje",
-"named": false,
-"kind": "plaza",
-"troncal": false,
-"region": "Metropolitana",
-"lat": -33.39997,
-"lon": -70.62001
-},
-{
-"id": "cl-060",
+"id": "cl-054",
 "name": "F-90",
 "named": true,
 "kind": "plaza",
@@ -602,27 +542,7 @@
 "lon": -71.49767
 },
 {
-"id": "cl-061",
-"name": "Pórtico",
-"named": false,
-"kind": "portico",
-"troncal": false,
-"region": "Metropolitana",
-"lat": -33.41246,
-"lon": -70.58204
-},
-{
-"id": "cl-062",
-"name": "Plaza de peaje",
-"named": false,
-"kind": "plaza",
-"troncal": false,
-"region": "Metropolitana",
-"lat": -33.42541,
-"lon": -70.6253
-},
-{
-"id": "cl-063",
+"id": "cl-055",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -632,7 +552,7 @@
 "lon": -70.60792
 },
 {
-"id": "cl-064",
+"id": "cl-056",
 "name": "F-962-G",
 "named": true,
 "kind": "plaza",
@@ -642,7 +562,7 @@
 "lon": -71.47322
 },
 {
-"id": "cl-065",
+"id": "cl-057",
 "name": "Lateral Las Cruces",
 "named": true,
 "kind": "plaza",
@@ -652,7 +572,7 @@
 "lon": -71.59922
 },
 {
-"id": "cl-066",
+"id": "cl-058",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -662,7 +582,7 @@
 "lon": -70.52344
 },
 {
-"id": "cl-067",
+"id": "cl-059",
 "name": "Nuevo Camino Costero",
 "named": true,
 "kind": "plaza",
@@ -672,7 +592,7 @@
 "lon": -71.5817
 },
 {
-"id": "cl-068",
+"id": "cl-060",
 "name": "Gabriela Poniente",
 "named": true,
 "kind": "portico",
@@ -682,7 +602,7 @@
 "lon": -70.61077
 },
 {
-"id": "cl-069",
+"id": "cl-061",
 "name": "Tocornal Poniente",
 "named": true,
 "kind": "portico",
@@ -692,7 +612,7 @@
 "lon": -70.60427
 },
 {
-"id": "cl-070",
+"id": "cl-062",
 "name": "Puangue",
 "named": true,
 "kind": "portico",
@@ -702,7 +622,7 @@
 "lon": -71.36023
 },
 {
-"id": "cl-071",
+"id": "cl-063",
 "name": "Troncal Río Maipo",
 "named": true,
 "kind": "portico",
@@ -712,7 +632,7 @@
 "lon": -70.66795
 },
 {
-"id": "cl-072",
+"id": "cl-064",
 "name": "Pomaire",
 "named": true,
 "kind": "portico",
@@ -722,7 +642,7 @@
 "lon": -71.15074
 },
 {
-"id": "cl-073",
+"id": "cl-065",
 "name": "Variante Melipilla",
 "named": true,
 "kind": "plaza",
@@ -732,7 +652,7 @@
 "lon": -71.16764
 },
 {
-"id": "cl-074",
+"id": "cl-066",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -742,7 +662,7 @@
 "lon": -70.75125
 },
 {
-"id": "cl-075",
+"id": "cl-067",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -752,7 +672,7 @@
 "lon": -70.75144
 },
 {
-"id": "cl-076",
+"id": "cl-068",
 "name": "San Pedro",
 "named": true,
 "kind": "portico",
@@ -762,7 +682,7 @@
 "lon": -71.52642
 },
 {
-"id": "cl-077",
+"id": "cl-069",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -772,7 +692,7 @@
 "lon": -70.74877
 },
 {
-"id": "cl-078",
+"id": "cl-070",
 "name": "Angostura",
 "named": true,
 "kind": "portico",
@@ -782,7 +702,7 @@
 "lon": -70.73116
 },
 {
-"id": "cl-079",
+"id": "cl-071",
 "name": "Angostura",
 "named": true,
 "kind": "plaza",
@@ -792,7 +712,7 @@
 "lon": -70.73117
 },
 {
-"id": "cl-080",
+"id": "cl-072",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -802,7 +722,7 @@
 "lon": -70.70591
 },
 {
-"id": "cl-081",
+"id": "cl-073",
 "name": "Las Arañas",
 "named": true,
 "kind": "portico",
@@ -812,7 +732,7 @@
 "lon": -71.37089
 },
 {
-"id": "cl-082",
+"id": "cl-074",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -822,7 +742,7 @@
 "lon": -70.78954
 },
 {
-"id": "cl-083",
+"id": "cl-075",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -832,7 +752,7 @@
 "lon": -70.79215
 },
 {
-"id": "cl-084",
+"id": "cl-076",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -842,7 +762,7 @@
 "lon": -70.81868
 },
 {
-"id": "cl-085",
+"id": "cl-077",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -852,7 +772,7 @@
 "lon": -70.82191
 },
 {
-"id": "cl-086",
+"id": "cl-078",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -862,7 +782,7 @@
 "lon": -70.84074
 },
 {
-"id": "cl-087",
+"id": "cl-079",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -872,7 +792,7 @@
 "lon": -70.87175
 },
 {
-"id": "cl-088",
+"id": "cl-080",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -882,7 +802,7 @@
 "lon": -70.87336
 },
 {
-"id": "cl-089",
+"id": "cl-081",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -892,7 +812,7 @@
 "lon": -70.89775
 },
 {
-"id": "cl-090",
+"id": "cl-082",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -902,7 +822,7 @@
 "lon": -70.96161
 },
 {
-"id": "cl-091",
+"id": "cl-083",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -912,7 +832,7 @@
 "lon": -70.97275
 },
 {
-"id": "cl-092",
+"id": "cl-084",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -922,7 +842,7 @@
 "lon": -70.9695
 },
 {
-"id": "cl-093",
+"id": "cl-085",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -932,7 +852,7 @@
 "lon": -70.97315
 },
 {
-"id": "cl-094",
+"id": "cl-086",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -942,7 +862,7 @@
 "lon": -70.9836
 },
 {
-"id": "cl-095",
+"id": "cl-087",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -952,7 +872,7 @@
 "lon": -71.03056
 },
 {
-"id": "cl-096",
+"id": "cl-088",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -962,7 +882,7 @@
 "lon": -71.04821
 },
 {
-"id": "cl-097",
+"id": "cl-089",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -972,7 +892,7 @@
 "lon": -71.04823
 },
 {
-"id": "cl-098",
+"id": "cl-090",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -982,7 +902,7 @@
 "lon": -71.04964
 },
 {
-"id": "cl-099",
+"id": "cl-091",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -992,7 +912,7 @@
 "lon": -71.15053
 },
 {
-"id": "cl-100",
+"id": "cl-092",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1002,7 +922,7 @@
 "lon": -71.20574
 },
 {
-"id": "cl-101",
+"id": "cl-093",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1012,7 +932,7 @@
 "lon": -71.21505
 },
 {
-"id": "cl-102",
+"id": "cl-094",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1022,7 +942,7 @@
 "lon": -71.2324
 },
 {
-"id": "cl-103",
+"id": "cl-095",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1032,7 +952,7 @@
 "lon": -71.28116
 },
 {
-"id": "cl-104",
+"id": "cl-096",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1042,7 +962,7 @@
 "lon": -71.31886
 },
 {
-"id": "cl-105",
+"id": "cl-097",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1052,7 +972,7 @@
 "lon": -71.35469
 },
 {
-"id": "cl-106",
+"id": "cl-098",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1062,7 +982,7 @@
 "lon": -71.4113
 },
 {
-"id": "cl-107",
+"id": "cl-099",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -1072,7 +992,7 @@
 "lon": -71.41127
 },
 {
-"id": "cl-108",
+"id": "cl-100",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1082,7 +1002,7 @@
 "lon": -71.65927
 },
 {
-"id": "cl-109",
+"id": "cl-101",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1092,7 +1012,7 @@
 "lon": -71.67671
 },
 {
-"id": "cl-110",
+"id": "cl-102",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1102,7 +1022,7 @@
 "lon": -71.69801
 },
 {
-"id": "cl-111",
+"id": "cl-103",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1112,7 +1032,7 @@
 "lon": -71.70664
 },
 {
-"id": "cl-112",
+"id": "cl-104",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1122,7 +1042,7 @@
 "lon": -71.7064
 },
 {
-"id": "cl-113",
+"id": "cl-105",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1132,7 +1052,7 @@
 "lon": -71.05667
 },
 {
-"id": "cl-114",
+"id": "cl-106",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1142,7 +1062,7 @@
 "lon": -71.70665
 },
 {
-"id": "cl-115",
+"id": "cl-107",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1152,7 +1072,7 @@
 "lon": -71.68617
 },
 {
-"id": "cl-116",
+"id": "cl-108",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1162,7 +1082,7 @@
 "lon": -71.63185
 },
 {
-"id": "cl-117",
+"id": "cl-109",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -1172,7 +1092,7 @@
 "lon": -71.73243
 },
 {
-"id": "cl-118",
+"id": "cl-110",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1182,7 +1102,7 @@
 "lon": -71.73244
 },
 {
-"id": "cl-119",
+"id": "cl-111",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1192,7 +1112,7 @@
 "lon": -71.81389
 },
 {
-"id": "cl-120",
+"id": "cl-112",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1202,7 +1122,7 @@
 "lon": -71.94597
 },
 {
-"id": "cl-121",
+"id": "cl-113",
 "name": "Salida San Carlos",
 "named": true,
 "kind": "plaza",
@@ -1212,7 +1132,7 @@
 "lon": -71.96248
 },
 {
-"id": "cl-122",
+"id": "cl-114",
 "name": "Lateral Cocharcas",
 "named": true,
 "kind": "plaza",
@@ -1222,7 +1142,7 @@
 "lon": -72.07242
 },
 {
-"id": "cl-123",
+"id": "cl-115",
 "name": "Chillán",
 "named": true,
 "kind": "plaza",
@@ -1232,7 +1152,7 @@
 "lon": -72.09518
 },
 {
-"id": "cl-124",
+"id": "cl-116",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1242,7 +1162,7 @@
 "lon": -72.16054
 },
 {
-"id": "cl-125",
+"id": "cl-117",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1252,7 +1172,7 @@
 "lon": -72.4575
 },
 {
-"id": "cl-126",
+"id": "cl-118",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1262,7 +1182,7 @@
 "lon": -72.27441
 },
 {
-"id": "cl-127",
+"id": "cl-119",
 "name": "Lateral Rafael",
 "named": true,
 "kind": "plaza",
@@ -1272,7 +1192,7 @@
 "lon": -72.86551
 },
 {
-"id": "cl-128",
+"id": "cl-120",
 "name": "Agua Amarilla",
 "named": true,
 "kind": "plaza",
@@ -1282,7 +1202,7 @@
 "lon": -72.86021
 },
 {
-"id": "cl-129",
+"id": "cl-121",
 "name": "Talcahuano",
 "named": true,
 "kind": "plaza",
@@ -1292,7 +1212,7 @@
 "lon": -73.08823
 },
 {
-"id": "cl-130",
+"id": "cl-122",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1302,7 +1222,7 @@
 "lon": -72.28543
 },
 {
-"id": "cl-131",
+"id": "cl-123",
 "name": "Queime",
 "named": true,
 "kind": "plaza",
@@ -1312,7 +1232,7 @@
 "lon": -72.58589
 },
 {
-"id": "cl-132",
+"id": "cl-124",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1322,7 +1242,7 @@
 "lon": -72.29531
 },
 {
-"id": "cl-133",
+"id": "cl-125",
 "name": "Penco",
 "named": true,
 "kind": "plaza",
@@ -1332,7 +1252,7 @@
 "lon": -73.01132
 },
 {
-"id": "cl-134",
+"id": "cl-126",
 "name": "Ramal Alessandri",
 "named": true,
 "kind": "plaza",
@@ -1342,7 +1262,7 @@
 "lon": -73.0507
 },
 {
-"id": "cl-135",
+"id": "cl-127",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -1352,7 +1272,7 @@
 "lon": -73.12784
 },
 {
-"id": "cl-136",
+"id": "cl-128",
 "name": "Santa Clara",
 "named": true,
 "kind": "plaza",
@@ -1362,7 +1282,7 @@
 "lon": -72.34215
 },
 {
-"id": "cl-137",
+"id": "cl-129",
 "name": "Pórtico",
 "named": false,
 "kind": "portico",
@@ -1372,7 +1292,7 @@
 "lon": -72.34218
 },
 {
-"id": "cl-138",
+"id": "cl-130",
 "name": "Entrada Valle Hermoso",
 "named": true,
 "kind": "plaza",
@@ -1382,7 +1302,7 @@
 "lon": -71.42554
 },
 {
-"id": "cl-139",
+"id": "cl-131",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1392,7 +1312,7 @@
 "lon": -71.5623
 },
 {
-"id": "cl-140",
+"id": "cl-132",
 "name": "Huinanco",
 "named": true,
 "kind": "plaza",
@@ -1402,7 +1322,7 @@
 "lon": -72.72839
 },
 {
-"id": "cl-141",
+"id": "cl-133",
 "name": "Lateral Cabrero",
 "named": true,
 "kind": "plaza",
@@ -1412,7 +1332,7 @@
 "lon": -72.37163
 },
 {
-"id": "cl-142",
+"id": "cl-134",
 "name": "Puentes Negros",
 "named": true,
 "kind": "plaza",
@@ -1422,7 +1342,7 @@
 "lon": -72.27138
 },
 {
-"id": "cl-143",
+"id": "cl-135",
 "name": "Chivilingo",
 "named": true,
 "kind": "plaza",
@@ -1432,7 +1352,7 @@
 "lon": -73.17423
 },
 {
-"id": "cl-144",
+"id": "cl-136",
 "name": "Lateral Laja",
 "named": true,
 "kind": "plaza",
@@ -1442,7 +1362,7 @@
 "lon": -72.39165
 },
 {
-"id": "cl-145",
+"id": "cl-137",
 "name": "Lateral Lima",
 "named": true,
 "kind": "plaza",
@@ -1452,7 +1372,7 @@
 "lon": -72.36916
 },
 {
-"id": "cl-146",
+"id": "cl-138",
 "name": "San Roque",
 "named": true,
 "kind": "plaza",
@@ -1462,7 +1382,7 @@
 "lon": -72.84023
 },
 {
-"id": "cl-147",
+"id": "cl-139",
 "name": "Curanilahue",
 "named": true,
 "kind": "plaza",
@@ -1472,7 +1392,7 @@
 "lon": -73.33984
 },
 {
-"id": "cl-148",
+"id": "cl-140",
 "name": "Lateral Rarinco",
 "named": true,
 "kind": "plaza",
@@ -1482,7 +1402,7 @@
 "lon": -72.36145
 },
 {
-"id": "cl-149",
+"id": "cl-141",
 "name": "Lateral María Dolores",
 "named": true,
 "kind": "plaza",
@@ -1492,7 +1412,7 @@
 "lon": -72.39661
 },
 {
-"id": "cl-150",
+"id": "cl-142",
 "name": "Lateral María Dolores",
 "named": true,
 "kind": "plaza",
@@ -1502,7 +1422,7 @@
 "lon": -72.3995
 },
 {
-"id": "cl-151",
+"id": "cl-143",
 "name": "Lateral Santa Fe",
 "named": true,
 "kind": "plaza",
@@ -1512,7 +1432,7 @@
 "lon": -72.46272
 },
 {
-"id": "cl-152",
+"id": "cl-144",
 "name": "Lateral Los Ángeles",
 "named": true,
 "kind": "plaza",
@@ -1522,7 +1442,7 @@
 "lon": -72.40518
 },
 {
-"id": "cl-153",
+"id": "cl-145",
 "name": "Lateral Los Ángeles",
 "named": true,
 "kind": "plaza",
@@ -1532,7 +1452,7 @@
 "lon": -72.4042
 },
 {
-"id": "cl-154",
+"id": "cl-146",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1542,7 +1462,7 @@
 "lon": -72.32654
 },
 {
-"id": "cl-155",
+"id": "cl-147",
 "name": "Coihue",
 "named": true,
 "kind": "plaza",
@@ -1552,7 +1472,7 @@
 "lon": -72.57998
 },
 {
-"id": "cl-156",
+"id": "cl-148",
 "name": "Pilpilco",
 "named": true,
 "kind": "plaza",
@@ -1562,7 +1482,7 @@
 "lon": -73.41529
 },
 {
-"id": "cl-157",
+"id": "cl-149",
 "name": "Renaico",
 "named": true,
 "kind": "plaza",
@@ -1572,7 +1492,7 @@
 "lon": -72.59514
 },
 {
-"id": "cl-158",
+"id": "cl-150",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1582,7 +1502,7 @@
 "lon": -72.25747
 },
 {
-"id": "cl-159",
+"id": "cl-151",
 "name": "Las Maicas",
 "named": true,
 "kind": "plaza",
@@ -1592,7 +1512,7 @@
 "lon": -72.33089
 },
 {
-"id": "cl-160",
+"id": "cl-152",
 "name": "Las Maicas",
 "named": true,
 "kind": "portico",
@@ -1602,7 +1522,7 @@
 "lon": -72.3309
 },
 {
-"id": "cl-161",
+"id": "cl-153",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1612,7 +1532,7 @@
 "lon": -72.39652
 },
 {
-"id": "cl-162",
+"id": "cl-154",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1622,7 +1542,7 @@
 "lon": -72.35591
 },
 {
-"id": "cl-163",
+"id": "cl-155",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1632,7 +1552,7 @@
 "lon": -72.35913
 },
 {
-"id": "cl-164",
+"id": "cl-156",
 "name": "Púa",
 "named": true,
 "kind": "plaza",
@@ -1642,7 +1562,7 @@
 "lon": -72.38595
 },
 {
-"id": "cl-165",
+"id": "cl-157",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1652,7 +1572,7 @@
 "lon": -72.45626
 },
 {
-"id": "cl-166",
+"id": "cl-158",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1662,7 +1582,7 @@
 "lon": -72.45769
 },
 {
-"id": "cl-167",
+"id": "cl-159",
 "name": "Las Raíces",
 "named": true,
 "kind": "plaza",
@@ -1672,7 +1592,7 @@
 "lon": -71.4977
 },
 {
-"id": "cl-168",
+"id": "cl-160",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1682,7 +1602,7 @@
 "lon": -72.48877
 },
 {
-"id": "cl-169",
+"id": "cl-161",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1692,7 +1612,7 @@
 "lon": -72.58128
 },
 {
-"id": "cl-170",
+"id": "cl-162",
 "name": "Lateral Licanco",
 "named": true,
 "kind": "plaza",
@@ -1702,7 +1622,7 @@
 "lon": -72.61169
 },
 {
-"id": "cl-171",
+"id": "cl-163",
 "name": "Troncal Quepe",
 "named": true,
 "kind": "plaza",
@@ -1712,7 +1632,7 @@
 "lon": -72.62414
 },
 {
-"id": "cl-172",
+"id": "cl-164",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1722,7 +1642,7 @@
 "lon": -72.64688
 },
 {
-"id": "cl-173",
+"id": "cl-165",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1732,7 +1652,7 @@
 "lon": -72.63973
 },
 {
-"id": "cl-174",
+"id": "cl-166",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1742,7 +1662,7 @@
 "lon": -72.62093
 },
 {
-"id": "cl-175",
+"id": "cl-167",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1752,7 +1672,7 @@
 "lon": -72.77148
 },
 {
-"id": "cl-176",
+"id": "cl-168",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1762,7 +1682,7 @@
 "lon": -72.80644
 },
 {
-"id": "cl-177",
+"id": "cl-169",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1772,7 +1692,7 @@
 "lon": -72.86466
 },
 {
-"id": "cl-178",
+"id": "cl-170",
 "name": "de la Unión",
 "named": true,
 "kind": "plaza",
@@ -1782,7 +1702,7 @@
 "lon": -72.93879
 },
 {
-"id": "cl-179",
+"id": "cl-171",
 "name": "Toll Booth Rio Bueno",
 "named": true,
 "kind": "plaza",
@@ -1792,7 +1712,7 @@
 "lon": -72.98679
 },
 {
-"id": "cl-180",
+"id": "cl-172",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1802,7 +1722,7 @@
 "lon": -73.00171
 },
 {
-"id": "cl-181",
+"id": "cl-173",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1812,7 +1732,7 @@
 "lon": -73.10036
 },
 {
-"id": "cl-182",
+"id": "cl-174",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1822,7 +1742,7 @@
 "lon": -73.09814
 },
 {
-"id": "cl-183",
+"id": "cl-175",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1832,7 +1752,7 @@
 "lon": -73.09765
 },
 {
-"id": "cl-184",
+"id": "cl-176",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1842,7 +1762,7 @@
 "lon": -73.09805
 },
 {
-"id": "cl-185",
+"id": "cl-177",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1852,7 +1772,7 @@
 "lon": -73.09911
 },
 {
-"id": "cl-186",
+"id": "cl-178",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1862,7 +1782,7 @@
 "lon": -73.16751
 },
 {
-"id": "cl-187",
+"id": "cl-179",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1872,7 +1792,7 @@
 "lon": -73.15225
 },
 {
-"id": "cl-188",
+"id": "cl-180",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1882,7 +1802,7 @@
 "lon": -73.13393
 },
 {
-"id": "cl-189",
+"id": "cl-181",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1892,7 +1812,7 @@
 "lon": -73.12033
 },
 {
-"id": "cl-190",
+"id": "cl-182",
 "name": "Toll Booth Frutillar",
 "named": true,
 "kind": "plaza",
@@ -1902,7 +1822,7 @@
 "lon": -73.06256
 },
 {
-"id": "cl-191",
+"id": "cl-183",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1912,7 +1832,7 @@
 "lon": -73.05595
 },
 {
-"id": "cl-192",
+"id": "cl-184",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1922,7 +1842,7 @@
 "lon": -73.05256
 },
 {
-"id": "cl-193",
+"id": "cl-185",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1932,7 +1852,7 @@
 "lon": -73.02187
 },
 {
-"id": "cl-194",
+"id": "cl-186",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1942,7 +1862,7 @@
 "lon": -73.00743
 },
 {
-"id": "cl-195",
+"id": "cl-187",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1952,7 +1872,7 @@
 "lon": -73.00736
 },
 {
-"id": "cl-196",
+"id": "cl-188",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1962,7 +1882,7 @@
 "lon": -73.01074
 },
 {
-"id": "cl-197",
+"id": "cl-189",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1972,7 +1892,7 @@
 "lon": -73.00761
 },
 {
-"id": "cl-198",
+"id": "cl-190",
 "name": "Puerto Varas",
 "named": true,
 "kind": "plaza",
@@ -1982,7 +1902,7 @@
 "lon": -72.98783
 },
 {
-"id": "cl-199",
+"id": "cl-191",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -1992,7 +1912,7 @@
 "lon": -72.95636
 },
 {
-"id": "cl-200",
+"id": "cl-192",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -2002,7 +1922,7 @@
 "lon": -73.07798
 },
 {
-"id": "cl-201",
+"id": "cl-193",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -2012,7 +1932,7 @@
 "lon": -73.23338
 },
 {
-"id": "cl-202",
+"id": "cl-194",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",
@@ -2022,7 +1942,7 @@
 "lon": -73.27378
 },
 {
-"id": "cl-203",
+"id": "cl-195",
 "name": "Plaza de peaje",
 "named": false,
 "kind": "plaza",

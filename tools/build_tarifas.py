@@ -36,6 +36,7 @@ SOURCES = [
     ("src-amb-2026", "Acceso Vial AMB", "https://www.accesovialamb.cl/wp-content/uploads/2026/06/AMB_tarifas_2026_ok.pdf", "Tarifas 2026"),
     ("src-r78-2026", "Autopista Ruta 78", "https://www.autopistaruta78.cl/storage/app/media/tarifas-2026-v2.pdf", "Tarifas 2026"),
     ("src-cn-2026", "Costanera Norte", "https://web.costaneranorte.cl/wp-content/uploads/2026/06/CN_Tarifas_2026_2doSemestre.pdf", "Tarifas 2026, 2° semestre (desde 01-07-2026)"),
+    ("src-r68-2026", "Ruta 68 a la costa (Sacyr)", "https://ruta68.cl/wp-content/uploads/2026/10/Tarifario-actualizado-completo.jpg", "Tarifas 2026 (desde 01-01-2026)"),
     ("src-feriados", "Biblioteca del Congreso Nacional", "https://www.bcn.cl/leyfacil/recurso/feriados", "Feriados legales de Chile"),
 ]
 
@@ -308,6 +309,34 @@ def r78():
             "validFrom": "2026-01-01", "validTo": "2026-12-31", "holidayAs": "DOMINGO", "bandsComplete": False, "gantries": gs,
             "note": "Tarifa normal todo el año. La punta aplica en temporada alta (20-dic a 10-mar) y fines de semana largos: la revisión solo marca lo que supera la tarifa punta."}
 
+# ---------------------------------------------------------------- Ruta 68 (Santiago - Valparaíso - Viña del Mar)
+# Troncales (Lo Prado, Zapata): normal de lunes a viernes; punta desde el viernes 17:00 hasta el lunes 00:00 y en fines
+# de semana largos desde las 17:00 de la víspera. Troncal Sur y laterales: tarifa normal todo el año.
+# El viernes desde las 17:00 y la víspera de un fin de semana largo no se pueden modelar: bandsComplete = False.
+# Posiciones: OSM (pórticos free flow junto a cada plaza); rumbo = sentido de la calzada.
+def r68():
+    troncal = {"MOTO": {"TBFP": 800.0, "TBP": 1200.0}, "AUTO": {"TBFP": 2700.0, "TBP": 4000.0},
+               "BUS_CAMION": {"TBFP": 4800.0, "TBP": 7200.0}, "CAMION_REMOLQUE": {"TBFP": 8600.0, "TBP": 12900.0}}
+    normal = {"MOTO": {"TBFP": 300.0}, "AUTO": {"TBFP": 1100.0}, "BUS_CAMION": {"TBFP": 1900.0}, "CAMION_REMOLQUE": {"TBFP": 3500.0}}
+    weekend = "SABADO TBP 00:00-00:00; DOMINGO TBP 00:00-00:00"
+    gs = [
+        gantry("R68-LOPRADO", "Troncal Lo Prado", "Ambos sentidos", troncal, weekend),
+        gantry("R68-ZAPATA", "Troncal Zapata", "Ambos sentidos", troncal, weekend),
+        gantry("R68-TSUR", "Troncal Sur", "Ambos sentidos", normal),
+        gantry("R68-LAT", "Peajes laterales", "Ambos sentidos", normal),
+    ]
+    pos = {
+        "R68-LOPRADO": [[-33.455517, -70.894855, 68], [-33.455434, -70.894898, 248]],
+        "R68-ZAPATA": [[-33.36900, -71.30330, 297], [-33.36900, -71.30325, 117]],
+        "R68-TSUR": [[-33.06340, -71.43170, 280], [-33.06345, -71.43170, 100]],
+    }
+    for g in gs:
+        if g["code"] in pos:
+            g["pos"] = pos[g["code"]]
+    return {"id": "ruta-68", "name": "Ruta 68", "region": "RM y Valparaíso", "source": "src-r68-2026",
+            "validFrom": "2026-01-01", "validTo": "2026-12-31", "holidayAs": "DOMINGO", "bandsComplete": False, "gantries": gs,
+            "note": "Troncales Lo Prado y Zapata: punta desde el viernes 17:00 hasta el lunes y en fines de semana largos. Pagar un troncal con TAG da paso gratis por un lateral dentro de 12 horas."}
+
 # ---------------------------------------------------------------- Costanera Norte (2° semestre 2026)
 # Tarifa = km x $/km (cat 1 y 4: 107 / 206 / 312; cat 2 = x2; cat 3 = x3). Domingos y festivos: TBFP todo el día.
 # (código, tramo, km, sin TS, bloques LABORAL TBP | LABORAL TS | SABADO TBP | SABADO TS)
@@ -377,12 +406,12 @@ def cn():
 def main():
     pack = {
         "schema": 1,
-        "version": "2026.11.13",
+        "version": "2026.11.13.1",
         "fetched": FETCHED,
         "sources": [{"id": i, "owner": o, "url": u, "title": t} for i, o, u, t in SOURCES],
         "holidays": [{"date": a, "name": b} for a, b in HOLIDAYS],
-        "concessions": [ac(), vs(), avn(), tsc(), an(), cn(), avo(), amb(), r78()],
-        "pending": ["Ruta 68", "autopistas interurbanas fuera de la RM"],
+        "concessions": [ac(), vs(), avn(), tsc(), an(), cn(), avo(), amb(), r78(), r68()],
+        "pending": ["autopistas interurbanas fuera de la RM"],
     }
     # Coordenadas de OpenStreetMap (tools/build_osm.py): pos = [[lat, lon, rumbo que paga], ...]
     osm = ROOT / "osm" / "porticos_rm.json"
@@ -391,9 +420,10 @@ def main():
         for c in pack["concessions"]:
             for g in c["gantries"]:
                 pos = o["placed"].get(c["id"], {}).get(g["code"])
-                if pos:
+                if pos and "pos" not in g:
                     g["pos"] = pos
-        pack["pendingGantries"] = o["pending"]
+        # Ruta 68 ya tiene cuadro y posiciones propias; AVO sigue como "por tramo".
+        pack["pendingGantries"] = [g for g in o["pending"] if g["concession"] != "ruta-68"]
         pack["mapLicense"] = o["license"]
     out = ROOT / "tarifas" / "2026.json"
     out.write_text(json.dumps(pack, ensure_ascii=False, separators=(",", ":")))

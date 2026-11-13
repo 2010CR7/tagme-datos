@@ -59,9 +59,15 @@ def main(src):
                     known.append((p[0], p[1]))
         for g in d.get("pending", []):
             known.append((g["lat"], g["lon"]))
+    pack = ROOT / "tarifas" / "2026.json"
+    if pack.exists():
+        for c in json.load(open(pack))["concessions"]:
+            for g in c["gantries"]:
+                for p in g.get("pos", []):
+                    known.append((p[0], p[1]))
     clusters = []
     for p in pts:
-        if any(meters((p["lat"], p["lon"]), k) < 250 for k in known): continue
+        if any(meters((p["lat"], p["lon"]), k) < 600 for k in known): continue
         for c in clusters:
             if c["kind"] == p["kind"] and meters((p["lat"], p["lon"]), (c["lat"], c["lon"])) < 400:
                 c["members"].append(p); break
