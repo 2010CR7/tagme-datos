@@ -1,0 +1,40 @@
+name: Datos en vivo (noticias y bencinas)
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: datos-vivos
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Traer lo último publicado (rama vivo)
+        run: |
+          mkdir -p vivo
+          if git fetch --depth 1 origin vivo; then git --work-tree=vivo checkout origin/vivo -- . || true; fi
+          ls -la vivo
+      - name: Noticias (cada 30 minutos)
+        run: python3 tools/build_noticias.py vivo/noticias.json || echo "noticias sin cambios"
+      - name: Bencinas (cada 3 horas, si están los secretos)
+        env:
+          CNE_EMAIL: ${{ secrets.CNE_EMAIL }}
+          CNE_PASSWORD: ${{ secrets.CNE_PASSWORD }}
+        run: |
+          if [ -z "$CNE_EMAIL" ]; then echo "Sin secretos CNE: se omite"; exit 0; fi
+          if [ -f vivo/bencinas.json ] && [ "${{ github.event_name }}" = "schedule" ] && [ $(( $(date +%H) % 3 )) -ne 0 -o $(date +%M) -ge 30 ]; then echo "Bencinas al día"; exit 0; fi
+          python3 tools/build_bencinas.py vivo/bencinas.new.json && mv vivo/bencinas.new.json vivo/bencinas.json || echo "bencinas: se mantiene lo anterior"
+      - name: Publicar en la rama vivo (un solo commit, sin historial)
+        run: |
+          cd vivo
+          git init -q -b vivo
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Datos en vivo $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" vivo
