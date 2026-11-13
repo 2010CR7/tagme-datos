@@ -35,6 +35,7 @@ SOURCES = [
     ("src-avo-2026", "Vespucio Oriente (AVO)", "https://www.avo.cl/descargas/tarifas_avo1_2026.pdf", "Tarifas 2026"),
     ("src-amb-2026", "Acceso Vial AMB", "https://www.accesovialamb.cl/wp-content/uploads/2026/06/AMB_tarifas_2026_ok.pdf", "Tarifas 2026"),
     ("src-r78-2026", "Autopista Ruta 78", "https://www.autopistaruta78.cl/storage/app/media/tarifas-2026-v2.pdf", "Tarifas 2026"),
+    ("src-cn-2026", "Costanera Norte", "https://web.costaneranorte.cl/wp-content/uploads/2026/06/CN_Tarifas_2026_2doSemestre.pdf", "Tarifas 2026, 2° semestre (desde 01-07-2026)"),
     ("src-feriados", "Biblioteca del Congreso Nacional", "https://www.bcn.cl/leyfacil/recurso/feriados", "Feriados legales de Chile"),
 ]
 
@@ -307,15 +308,81 @@ def r78():
             "validFrom": "2026-01-01", "validTo": "2026-12-31", "holidayAs": "DOMINGO", "bandsComplete": False, "gantries": gs,
             "note": "Tarifa normal todo el año. La punta aplica en temporada alta (20-dic a 10-mar) y fines de semana largos: la revisión solo marca lo que supera la tarifa punta."}
 
+# ---------------------------------------------------------------- Costanera Norte (2° semestre 2026)
+# Tarifa = km x $/km (cat 1 y 4: 107 / 206 / 312; cat 2 = x2; cat 3 = x3). Domingos y festivos: TBFP todo el día.
+# (código, tramo, km, sin TS, bloques LABORAL TBP | LABORAL TS | SABADO TBP | SABADO TS)
+CN_A = "07:00-07:30 / 08:30-10:00 / 12:00-13:00 / 14:00-15:00 / 17:30-19:30", "07:30-08:30 / 13:00-14:00"
+CN_B = "07:00-07:30 / 08:30-10:00 / 11:00-13:00 / 14:00-17:00 / 19:30-21:00", "07:30-08:30 / 13:00-14:00 / 17:00-19:30", "11:30-15:00 / 16:30-17:00 / 18:30-19:30"
+CN_K = "07:00-07:30 / 08:30-10:00 / 12:00-13:00 / 14:00-15:00 / 17:30-19:00", "07:30-08:30 / 13:00-14:00"
+CN_KP = "07:00-09:30 / 12:00-13:00 / 14:00-15:00 / 15:30-16:00 / 16:30-18:00 / 19:30-21:00", "13:00-14:00 / 18:00-19:30"
+CN_W = "07:00-07:30 / 09:00-10:00 / 12:00-15:00 / 18:00-18:30", "07:30-09:00"
+CN_T = "14:00-16:30 / 19:30-21:00", "07:00-14:00 / 16:30-19:30", "08:30-15:30 / 18:30-19:00"
+CN_E = "12:00-13:00 / 14:00-15:00 / 18:00-18:30 / 19:30-21:00", "13:00-14:00 / 18:30-19:30"
+CN = [
+    ("Oriente → Poniente", "OP", [
+        ("P0", "Puente Padre Arteaga - Puente San Francisco", "1,4000", False, CN_A),
+        ("P1", "Puente San Francisco - Gran Vía", "4,2000", False, CN_A),
+        ("P2.1", "Gran Vía - Centenario", "3,9800", False, CN_A),
+        ("P2.2", "Centenario - Puente Lo Saldes", "2,4700", False, CN_A),
+        ("SB", "Salida Bellavista", "2,1850", False, CN_B),
+        ("P3", "Puente Lo Saldes - Vivaceta", "6,7200", False, CN_B),
+        ("EP", "Entrada Purísima", "2,1100", False, CN_B),
+        ("EV", "Entrada Vivaceta", "1,1160", False, CN_B),
+        ("P5", "Vivaceta - Carrascal", "6,6900", True, ("12:00-15:00 / 18:00-21:00",)),
+        ("P6.1", "Carrascal - Petersen", "2,2400", True, ("12:00-15:00 / 18:00-21:00",)),
+        ("P6.2", "Petersen - Américo Vespucio Poniente", "3,4100", True, ("12:00-15:00 / 18:00-21:00",)),
+        ("P9", "Américo Vespucio Poniente - Ruta 68", "5,0000", False, ("12:00-15:00 / 18:00-21:00", "", "11:00-11:30", "11:30-15:00")),
+        ("P7", "Estoril - Las Tranqueras", "2,3385", False, CN_K),
+        ("P8.0", "Las Tranqueras - Costanera Norte", "5,4565", False, CN_K),
+        ("P8.1", "Las Tranqueras - Costanera Norte", "5,4565", False, CN_K),
+    ]),
+    ("Poniente → Oriente", "PO", [
+        ("P8.3", "Costanera Norte - Las Tranqueras", "5,4565", False, CN_KP),
+        ("P8.2", "Costanera Norte - Las Tranqueras", "5,4565", False, CN_KP),
+        ("P8.1", "Costanera Norte - Las Tranqueras", "5,4565", False, CN_KP),
+        ("P8.0", "Costanera Norte - Las Tranqueras", "5,4565", False, CN_KP),
+        ("P7", "Las Tranqueras - Estoril", "2,3385", False, CN_KP),
+        ("P9", "Ruta 68 - Américo Vespucio Poniente", "5,0000", True, ("07:00-10:00 / 12:00-15:00",)),
+        ("P6.2", "Américo Vespucio Poniente - Petersen", "3,4100", False, CN_W),
+        ("P6.1", "Petersen - Carrascal", "2,2400", False, CN_W),
+        ("P5", "Carrascal - Vivaceta", "6,6900", False, CN_W),
+        ("P4", "Vivaceta - Torres Tajamar", "3,8600", False, CN_T),
+        ("P3", "Torres Tajamar - Puente Lo Saldes", "2,8600", False, CN_T),
+        ("P2.2", "Puente Lo Saldes - Centenario", "2,4700", False, CN_E),
+        ("P2.1", "Centenario - Gran Vía", "3,9800", False, CN_E),
+        ("P1", "Gran Vía - Puente San Francisco", "4,2000", False, CN_E),
+        ("P0", "Puente San Francisco - Puente Padre Arteaga", "1,4000", False, CN_E),
+    ]),
+]
+
+def cn():
+    base = [Decimal("107"), Decimal("206"), Decimal("312")]
+    gs = []
+    for direction, suffix, rows in CN:
+        for code, name, km, no_ts, blocks in rows:
+            blocks = list(blocks) + [""] * (4 - len(blocks))
+            spec = "; ".join(f"{day} {kind} {r}" for (day, kind), r in
+                             zip([("LABORAL", "TBP"), ("LABORAL", "TS"), ("SABADO", "TBP"), ("SABADO", "TS")], blocks) if r)
+            rates = {}
+            for cat, f in (("AUTO", 1), ("BUS_CAMION", 2), ("CAMION_REMOLQUE", 3), ("MOTO", 1)):
+                r = {t: money(d(km) * b * f) for t, b in zip(["TBFP", "TBP", "TS"], base)}
+                if no_ts:
+                    r.pop("TS")
+                rates[cat] = r
+            gs.append(gantry(f"{code}-{suffix}", name, direction, rates, spec, km=d(km)))
+    return {"id": "costanera-norte", "name": "Costanera Norte", "region": "RM", "source": "src-cn-2026",
+            "validFrom": "2026-07-01", "validTo": "2026-12-31", "holidayAs": "DOMINGO", "gantries": gs,
+            "note": "Cuadro del 2° semestre 2026. Domingos y festivos: tarifa base todo el día. El código del pórtico lleva el sentido (OP = oriente a poniente, PO = poniente a oriente)."}
+
 def main():
     pack = {
         "schema": 1,
-        "version": "2026.11.12",
+        "version": "2026.11.13",
         "fetched": FETCHED,
         "sources": [{"id": i, "owner": o, "url": u, "title": t} for i, o, u, t in SOURCES],
         "holidays": [{"date": a, "name": b} for a, b in HOLIDAYS],
-        "concessions": [ac(), vs(), avn(), tsc(), an(), avo(), amb(), r78()],
-        "pending": ["Costanera Norte", "Ruta 68", "autopistas interurbanas fuera de la RM"],
+        "concessions": [ac(), vs(), avn(), tsc(), an(), cn(), avo(), amb(), r78()],
+        "pending": ["Ruta 68", "autopistas interurbanas fuera de la RM"],
     }
     # Coordenadas de OpenStreetMap (tools/build_osm.py): pos = [[lat, lon, rumbo que paga], ...]
     osm = ROOT / "osm" / "porticos_rm.json"

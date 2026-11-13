@@ -14,7 +14,7 @@ Salida:
 Datos © colaboradores de OpenStreetMap, licencia ODbL (https://www.openstreetmap.org/copyright).
 Uso: python3 tools/build_osm.py <rm_gantries.json> <rm_roads.json>
 """
-import json, math, re, sys
+import json, math, re, sys, unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -28,7 +28,7 @@ WAY_TO_CONCESSION = {
     "Autopista Costanera Norte": "costanera-norte", "Avenida Presidente Kennedy": "costanera-norte",
     "Ruta 68": "ruta-68",
 }
-PENDING_NAMES = {"costanera-norte": "Costanera Norte", "ruta-68": "Ruta 68", "avo": "Vespucio Oriente"}
+PENDING_NAMES = {"ruta-68": "Ruta 68", "avo": "Vespucio Oriente"}
 SPEED = {"motorway": 80, "motorway_link": 45, "trunk": 50, "trunk_link": 35}
 GATE_TOLERANCE_M = 60  # distancia máxima de un pórtico a su calzada
 
@@ -64,6 +64,13 @@ def norm(code):
     return re.sub(r"(?<=[A-Z])0+(?=\d)", "", c)
 
 
+def fold(text):
+    t = unicodedata.normalize("NFD", text.lower())
+    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
+    t = re.sub(r"\bpuente\b|\bfrancsico\b", lambda m: "" if m.group() == "puente" else "francisco", t)
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
 def oneway(tags):
     o = tags.get("oneway")
     if o in ("yes", "1", "true"):
@@ -93,11 +100,13 @@ def main(gantries_path, roads_path):
         for a, b in zip(w["nodes"], w["nodes"][1:]):
             grid[(round(coords[a][0], 2), round(coords[a][1], 2))].append((w, a, b))
 
-    def nearest_segment(p):
+    def nearest_segment(p, named=False):
         best = (1e9, None, None, None)
         for dy in (-0.01, 0, 0.01):
             for dx in (-0.01, 0, 0.01):
                 for w, a, b in grid.get((round(p[0] + dy, 2), round(p[1] + dx, 2)), []):
+                    if named and w["tags"].get("name") not in WAY_TO_CONCESSION:
+                        continue
                     d = seg_dist(p, coords[a], coords[b])
                     if d < best[0]:
                         best = (d, w, a, b)
@@ -107,7 +116,7 @@ def main(gantries_path, roads_path):
         p = (g["lat"], g["lon"])
         found = on_way.get(g["id"])
         if found:
-            w, i = found[0]
+            w, i = next((f for f in found if f[0]["tags"].get("name") in WAY_TO_CONCESSION), found[0])
             n = w["nodes"]
             a, b = coords[n[max(i - 1, 0)]], coords[n[min(i + 1, len(n) - 1)]]
             way, dist = w, 0
@@ -126,6 +135,7 @@ def main(gantries_path, roads_path):
 
     pack = json.load(open(ROOT / "tarifas" / "2026.json"))
     ours = {c["id"]: {norm(g["code"]): g["code"] for g in c["gantries"]} for c in pack["concessions"]}
+    names = {c["id"]: {g["code"]: g["name"] for g in c["gantries"]} for c in pack["concessions"]}
     by_name = {c["id"]: {g["name"].lower(): g["code"] for g in c["gantries"]} for c in pack["concessions"]}
     placed = defaultdict(lambda: defaultdict(list))
     pending = []
@@ -135,7 +145,15 @@ def main(gantries_path, roads_path):
         if way is None:
             continue
         cid = WAY_TO_CONCESSION.get(way["tags"].get("name"))
+        if cid is None:  # enlace sin nombre: la autopista con nombre más cercana
+            d2, w2, _, _ = nearest_segment((g["lat"], g["lon"]), named=True)
+            if w2 is not None and d2 < 150:
+                cid = WAY_TO_CONCESSION[w2["tags"]["name"]]
         ref = tags.get("ref", "")
+        name = tags.get("name", "")
+        if " " in ref.strip() and not name:  # ref = "P2.1 Gran Vía - Centenario"
+            name = ref
+            ref = ref.split()[0]
         if cid is None and re.fullmatch(r"P6\d", ref):
             cid = "nororiente"  # pórticos laterales en los enlaces de Nororiente
         if cid is None:
@@ -150,6 +168,17 @@ def main(gantries_path, roads_path):
         elif cid in ("ruta-78", "amb"):
             label = name.lower().replace("peaje acceso vial amb", "acceso al aeropuerto")
             code = by_name[cid].get(label) or (next(iter(ours[cid].values())) if cid == "amb" else None)
+        elif cid == "costanera-norte":
+            # Mismo código en ambos sentidos: hacia el poniente (rumbo 180°–360°) es OP, hacia el oriente es PO.
+            # Primero por el nombre del tramo en OSM ("P00 Puente Padre Arteaga - Puente San Francisco").
+            tramo = fold(re.sub(r"^\s*P[A-Z]?\s?[\d.]+\s*-?\s*", "", name).split("(")[0])
+            by_tramo = [k for k in ours[cid].values() if norm(k).startswith(norm(ref) + "-") and tramo and fold(names[cid][k]) == tramo]
+            for b in brs:
+                suffix = "OP" if 180 <= b < 360 else "PO"
+                c2 = by_tramo[0] if len(by_tramo) == 1 else ours[cid].get(norm(ref) + "-" + suffix)
+                if c2:
+                    placed[cid][c2].append([round(g["lat"], 6), round(g["lon"], 6), round(b)])
+            continue
         elif cid in ours and cid != "avo":
             code = ours[cid].get(norm(ref)) or ours[cid].get(norm(ref).removeprefix("P"))
         pos = [[round(g["lat"], 6), round(g["lon"], 6), round(b)] for b in brs]

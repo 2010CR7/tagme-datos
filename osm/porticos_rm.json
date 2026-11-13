@@ -77,6 +77,11 @@
      -33.365821,
      -70.695114,
      270
+    ],
+    [
+     -33.365772,
+     -70.695115,
+     282
     ]
    ],
    "P10": [
@@ -348,6 +353,211 @@
     ]
    ]
   },
+  "costanera-norte": {
+   "P0-OP": [
+    [
+     -33.371003,
+     -70.52258,
+     253
+    ]
+   ],
+   "P7-OP": [
+    [
+     -33.387681,
+     -70.542926,
+     244
+    ]
+   ],
+   "P5-OP": [
+    [
+     -33.426438,
+     -70.669833,
+     295
+    ]
+   ],
+   "P2.2-PO": [
+    [
+     -33.394444,
+     -70.603386,
+     27
+    ]
+   ],
+   "P1-OP": [
+    [
+     -33.37582,
+     -70.542649,
+     301
+    ]
+   ],
+   "P8.1-OP": [
+    [
+     -33.408141,
+     -70.599763,
+     268
+    ]
+   ],
+   "P5-PO": [
+    [
+     -33.426442,
+     -70.67014,
+     115
+    ]
+   ],
+   "P8.0-OP": [
+    [
+     -33.408073,
+     -70.599764,
+     269
+    ]
+   ],
+   "P8.0-PO": [
+    [
+     -33.40909,
+     -70.604327,
+     67
+    ]
+   ],
+   "P8.1-PO": [
+    [
+     -33.409071,
+     -70.603899,
+     63
+    ]
+   ],
+   "EV-OP": [
+    [
+     -33.43028,
+     -70.657227,
+     282
+    ]
+   ],
+   "P4-PO": [
+    [
+     -33.430225,
+     -70.657961,
+     117
+    ]
+   ],
+   "P7-PO": [
+    [
+     -33.387206,
+     -70.541372,
+     66
+    ]
+   ],
+   "P2.2-OP": [
+    [
+     -33.394409,
+     -70.603526,
+     207
+    ]
+   ],
+   "P1-PO": [
+    [
+     -33.375729,
+     -70.54306,
+     122
+    ]
+   ],
+   "P9-PO": [
+    [
+     -33.418078,
+     -70.791003,
+     54
+    ]
+   ],
+   "P9-OP": [
+    [
+     -33.417858,
+     -70.790855,
+     234
+    ]
+   ],
+   "P6.2-PO": [
+    [
+     -33.413064,
+     -70.766743,
+     93
+    ]
+   ],
+   "P6.2-OP": [
+    [
+     -33.412972,
+     -70.766457,
+     274
+    ]
+   ],
+   "P8.2-PO": [
+    [
+     -33.408491,
+     -70.601945,
+     83
+    ]
+   ],
+   "SB-OP": [
+    [
+     -33.422147,
+     -70.619825,
+     239
+    ]
+   ],
+   "P0-PO": [
+    [
+     -33.371209,
+     -70.522911,
+     74
+    ]
+   ],
+   "P2.1-OP": [
+    [
+     -33.384604,
+     -70.592696,
+     226
+    ]
+   ],
+   "P2.1-PO": [
+    [
+     -33.384683,
+     -70.592604,
+     46
+    ]
+   ],
+   "P3-PO": [
+    [
+     -33.424113,
+     -70.621811,
+     40
+    ]
+   ],
+   "P3-OP": [
+    [
+     -33.423992,
+     -70.621955,
+     221
+    ]
+   ],
+   "P6.1-PO": [
+    [
+     -33.411826,
+     -70.739583,
+     89
+    ]
+   ],
+   "P6.1-OP": [
+    [
+     -33.41171,
+     -70.739581,
+     269
+    ]
+   ],
+   "P8.3-PO": [
+    [
+     -33.402401,
+     -70.581692,
+     63
+    ]
+   ]
+  },
   "nororiente": {
    "P64": [
     [
@@ -616,51 +826,6 @@
    "bearing": 252
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P07",
-   "name": "Estoril - Las Tranqueras",
-   "lat": -33.387681,
-   "lon": -70.542926,
-   "bearing": 244
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P05",
-   "name": "Vivaceta - Carrascal",
-   "lat": -33.426438,
-   "lon": -70.669833,
-   "bearing": 295
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P2.2",
-   "name": "Puente Lo Saldes - Centenario",
-   "lat": -33.394444,
-   "lon": -70.603386,
-   "bearing": 27
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P01",
-   "name": "Puente La Dehesa - Gran Vía",
-   "lat": -33.37582,
-   "lon": -70.542649,
-   "bearing": 301
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P8.1",
-   "name": "Las Tranqueras - Costanera Norte (Longitud 5,46 Kms)",
-   "lat": -33.408141,
-   "lon": -70.599763,
-   "bearing": 268
-  },
-  {
    "concession": "ruta-68",
    "concessionName": "Ruta 68",
    "code": "?",
@@ -670,94 +835,22 @@
    "bearing": 72
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P05",
-   "name": "Carrascal - Vivaceta",
-   "lat": -33.426442,
-   "lon": -70.67014,
-   "bearing": 115
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P212",
+   "name": "P212",
+   "lat": -33.391634,
+   "lon": -70.597093,
+   "bearing": 240
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P8.0",
-   "name": "Costanera Norte - Las Tranqueras",
-   "lat": -33.40909,
-   "lon": -70.604327,
-   "bearing": 67
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P04",
-   "name": "Vivaceta - Torres Tajamar",
-   "lat": -33.430225,
-   "lon": -70.657961,
-   "bearing": 117
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P07",
-   "name": "Las Tranqueras - Estoril",
-   "lat": -33.387206,
-   "lon": -70.541372,
-   "bearing": 66
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P2.2",
-   "name": "Centenario - Puente Lo Saldes",
-   "lat": -33.394409,
-   "lon": -70.603526,
-   "bearing": 207
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P01",
-   "name": "Gran Vía - Puente La Dehesa",
-   "lat": -33.375729,
-   "lon": -70.54306,
-   "bearing": 122
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P09",
-   "name": "Ruta 68 - Américo Vespucio Poniente",
-   "lat": -33.418078,
-   "lon": -70.791003,
-   "bearing": 54
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P09",
-   "name": "Américo Vespucio Poniente - Ruta 68",
-   "lat": -33.417858,
-   "lon": -70.790855,
-   "bearing": 234
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P6.2",
-   "name": "Américo Vespucio Poniente - Petersen",
-   "lat": -33.413064,
-   "lon": -70.766743,
-   "bearing": 93
-  },
-  {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P6.2",
-   "name": "Petersen - Américo Vespucio Poniente",
-   "lat": -33.412972,
-   "lon": -70.766457,
-   "bearing": 274
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P201",
+   "name": "P201",
+   "lat": -33.396448,
+   "lon": -70.6198,
+   "bearing": 121
   },
   {
    "concession": "avo",
@@ -769,67 +862,103 @@
    "bearing": 227
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P00",
-   "name": "Puente San Francisco - Puente Padre Arteaga",
-   "lat": -33.371209,
-   "lon": -70.522911,
-   "bearing": 74
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P101",
+   "name": "P101",
+   "lat": -33.430139,
+   "lon": -70.574703,
+   "bearing": 353
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P2.1 Gran Vía - Centenario",
-   "name": "P2.1 Gran Vía - Centenario",
-   "lat": -33.384604,
-   "lon": -70.592696,
-   "bearing": 226
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P210",
+   "name": "P210",
+   "lat": -33.42597,
+   "lon": -70.575685,
+   "bearing": 95
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P2.1 Puente Centenario - Gran Vía",
-   "name": "P2.1 Puente Centenario - Gran Vía",
-   "lat": -33.384683,
-   "lon": -70.592604,
-   "bearing": 46
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "?",
+   "name": "Pórtico",
+   "lat": -33.420415,
+   "lon": -70.58142,
+   "bearing": 328
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P03",
-   "name": "Torres Tajamar - Puente Lo Saldes",
-   "lat": -33.424113,
-   "lon": -70.621811,
-   "bearing": 40
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P108",
+   "name": "P108",
+   "lat": -33.396604,
+   "lon": -70.588756,
+   "bearing": 333
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P03",
-   "name": "Puente Lo Saldes - Vivaceta",
-   "lat": -33.423992,
-   "lon": -70.621955,
-   "bearing": 221
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "?",
+   "name": "Pórtico",
+   "lat": -33.392756,
+   "lon": -70.592471,
+   "bearing": 129
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P6.1",
-   "name": "Petersen - Carrascal",
-   "lat": -33.411826,
-   "lon": -70.739583,
-   "bearing": 89
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P205",
+   "name": "P205",
+   "lat": -33.400234,
+   "lon": -70.587549,
+   "bearing": 168
   },
   {
-   "concession": "costanera-norte",
-   "concessionName": "Costanera Norte",
-   "code": "P6.1",
-   "name": "Carrascal - Petersen",
-   "lat": -33.41171,
-   "lon": -70.739581,
-   "bearing": 269
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P104",
+   "name": "P104",
+   "lat": -33.409402,
+   "lon": -70.586971,
+   "bearing": 339
+  },
+  {
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P209",
+   "name": "P209",
+   "lat": -33.42443,
+   "lon": -70.578416,
+   "bearing": 138
+  },
+  {
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "?",
+   "name": "Pórtico",
+   "lat": -33.38965,
+   "lon": -70.600007,
+   "bearing": 277
+  },
+  {
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "P211",
+   "name": "P211",
+   "lat": -33.432543,
+   "lon": -70.574492,
+   "bearing": 173
+  },
+  {
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "?",
+   "name": "Pórtico",
+   "lat": -33.405036,
+   "lon": -70.586333,
+   "bearing": 179
   },
   {
    "concession": "ruta-68",
@@ -848,6 +977,15 @@
    "lat": -33.455434,
    "lon": -70.894898,
    "bearing": 248
+  },
+  {
+   "concession": "avo",
+   "concessionName": "Vespucio Oriente",
+   "code": "?",
+   "name": "Pórtico",
+   "lat": -33.409307,
+   "lon": -70.586937,
+   "bearing": 341
   }
  ]
 }
