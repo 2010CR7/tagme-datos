@@ -1,0 +1,2035 @@
+{
+"license": "© colaboradores de OpenStreetMap (ODbL)",
+"tolls": [
+{
+"id": "cl-001",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Tarapacá",
+"lat": -20.21612,
+"lon": -69.90343
+},
+{
+"id": "cl-002",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Tarapacá",
+"lat": -20.4956,
+"lon": -70.16166
+},
+{
+"id": "cl-003",
+"name": "Cerritos Bayos",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Antofagasta",
+"lat": -22.69578,
+"lon": -69.18845
+},
+{
+"id": "cl-004",
+"name": "Ruta 1",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Antofagasta",
+"lat": -23.31058,
+"lon": -70.41902
+},
+{
+"id": "cl-005",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Antofagasta",
+"lat": -23.44867,
+"lon": -70.44026
+},
+{
+"id": "cl-006",
+"name": "Lateral Acceso Ruta 1 Sector Aeropuerto",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Antofagasta",
+"lat": -23.45154,
+"lon": -70.43121
+},
+{
+"id": "cl-007",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Antofagasta",
+"lat": -23.4539,
+"lon": -70.12518
+},
+{
+"id": "cl-008",
+"name": "Puerto Viejo",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Atacama",
+"lat": -27.34823,
+"lon": -70.63635
+},
+{
+"id": "cl-009",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Atacama",
+"lat": -27.36552,
+"lon": -70.95269
+},
+{
+"id": "cl-010",
+"name": "Totoral",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Atacama",
+"lat": -27.99709,
+"lon": -70.56584
+},
+{
+"id": "cl-011",
+"name": "Cachiyuyo Troncal",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Atacama",
+"lat": -29.08673,
+"lon": -70.91704
+},
+{
+"id": "cl-012",
+"name": "Punta Colorada",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -29.37106,
+"lon": -71.07312
+},
+{
+"id": "cl-013",
+"name": "Lateral Guanaqueros",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -30.19738,
+"lon": -71.38796
+},
+{
+"id": "cl-014",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -30.33035,
+"lon": -71.24419
+},
+{
+"id": "cl-015",
+"name": "Lateral Tongoy Acceso Sur",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -30.35171,
+"lon": -71.43233
+},
+{
+"id": "cl-016",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -30.4082,
+"lon": -71.44547
+},
+{
+"id": "cl-017",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -30.70748,
+"lon": -71.48889
+},
+{
+"id": "cl-018",
+"name": "Puerto Oscuro",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -31.42017,
+"lon": -71.57077
+},
+{
+"id": "cl-019",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -31.44608,
+"lon": -71.56125
+},
+{
+"id": "cl-020",
+"name": "Pichidangui",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Coquimbo",
+"lat": -32.17493,
+"lon": -71.52084
+},
+{
+"id": "cl-021",
+"name": "Tunel el Melon",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.62963,
+"lon": -71.23071
+},
+{
+"id": "cl-022",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.62968,
+"lon": -71.23073
+},
+{
+"id": "cl-023",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.71427,
+"lon": -71.43984
+},
+{
+"id": "cl-024",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.71428,
+"lon": -71.43982
+},
+{
+"id": "cl-025",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.75317,
+"lon": -71.25308
+},
+{
+"id": "cl-026",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.75319,
+"lon": -71.25311
+},
+{
+"id": "cl-027",
+"name": "Panquehue",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.76024,
+"lon": -70.82832
+},
+{
+"id": "cl-028",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.76938,
+"lon": -70.7037
+},
+{
+"id": "cl-029",
+"name": "Llay Llay",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.8438,
+"lon": -70.98921
+},
+{
+"id": "cl-030",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.87528,
+"lon": -71.23121
+},
+{
+"id": "cl-031",
+"name": "Cristo Redentor",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -32.90068,
+"lon": -70.24891
+},
+{
+"id": "cl-032",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.90202,
+"lon": -71.24761
+},
+{
+"id": "cl-033",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.92738,
+"lon": -71.28649
+},
+{
+"id": "cl-034",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.93498,
+"lon": -71.28831
+},
+{
+"id": "cl-035",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -32.97273,
+"lon": -71.30181
+},
+{
+"id": "cl-036",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.00079,
+"lon": -70.68724
+},
+{
+"id": "cl-037",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.06168,
+"lon": -71.45729
+},
+{
+"id": "cl-038",
+"name": "Sur Rutas del Pacífico",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -33.06319,
+"lon": -71.43408
+},
+{
+"id": "cl-039",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.06346,
+"lon": -71.43166
+},
+{
+"id": "cl-040",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.1615,
+"lon": -71.54205
+},
+{
+"id": "cl-041",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.20895,
+"lon": -70.66805
+},
+{
+"id": "cl-042",
+"name": "Lampa",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.23561,
+"lon": -70.75894
+},
+{
+"id": "cl-043",
+"name": "Lampa",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.23565,
+"lon": -70.75891
+},
+{
+"id": "cl-044",
+"name": "San José",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.27008,
+"lon": -70.73546
+},
+{
+"id": "cl-045",
+"name": "Pórtico 8 - Enlace Lo Pinto",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.27994,
+"lon": -70.73899
+},
+{
+"id": "cl-046",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.28297,
+"lon": -70.70266
+},
+{
+"id": "cl-047",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.30552,
+"lon": -71.41122
+},
+{
+"id": "cl-048",
+"name": "Las Canteras",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.30999,
+"lon": -70.7018
+},
+{
+"id": "cl-049",
+"name": "Las Canteras",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.31079,
+"lon": -70.70231
+},
+{
+"id": "cl-050",
+"name": "Pórtico 6 - Paso Superior La Montaña",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.31709,
+"lon": -70.72231
+},
+{
+"id": "cl-051",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.3286,
+"lon": -71.39036
+},
+{
+"id": "cl-052",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.33982,
+"lon": -70.71211
+},
+{
+"id": "cl-053",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.34062,
+"lon": -71.36667
+},
+{
+"id": "cl-054",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.358,
+"lon": -70.70396
+},
+{
+"id": "cl-055",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.36564,
+"lon": -70.80168
+},
+{
+"id": "cl-056",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.36677,
+"lon": -71.30851
+},
+{
+"id": "cl-057",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.36901,
+"lon": -71.30323
+},
+{
+"id": "cl-058",
+"name": "Zapata Rutas del Pacífico",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.3711,
+"lon": -71.29977
+},
+{
+"id": "cl-059",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.39997,
+"lon": -70.62001
+},
+{
+"id": "cl-060",
+"name": "F-90",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -33.4006,
+"lon": -71.49767
+},
+{
+"id": "cl-061",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.41246,
+"lon": -70.58204
+},
+{
+"id": "cl-062",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.42541,
+"lon": -70.6253
+},
+{
+"id": "cl-063",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.4396,
+"lon": -70.60792
+},
+{
+"id": "cl-064",
+"name": "F-962-G",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -33.47164,
+"lon": -71.47322
+},
+{
+"id": "cl-065",
+"name": "Lateral Las Cruces",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.47296,
+"lon": -71.59922
+},
+{
+"id": "cl-066",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.47992,
+"lon": -70.52344
+},
+{
+"id": "cl-067",
+"name": "Nuevo Camino Costero",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -33.48246,
+"lon": -71.5817
+},
+{
+"id": "cl-068",
+"name": "Gabriela Poniente",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.58185,
+"lon": -70.61077
+},
+{
+"id": "cl-069",
+"name": "Tocornal Poniente",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.6049,
+"lon": -70.60427
+},
+{
+"id": "cl-070",
+"name": "Puangue",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.64751,
+"lon": -71.36023
+},
+{
+"id": "cl-071",
+"name": "Troncal Río Maipo",
+"named": true,
+"kind": "portico",
+"troncal": true,
+"region": "Metropolitana",
+"lat": -33.66265,
+"lon": -70.66795
+},
+{
+"id": "cl-072",
+"name": "Pomaire",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.66936,
+"lon": -71.15074
+},
+{
+"id": "cl-073",
+"name": "Variante Melipilla",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Valparaíso",
+"lat": -33.67336,
+"lon": -71.16764
+},
+{
+"id": "cl-074",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.81841,
+"lon": -70.75125
+},
+{
+"id": "cl-075",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.82206,
+"lon": -70.75144
+},
+{
+"id": "cl-076",
+"name": "San Pedro",
+"named": true,
+"kind": "portico",
+"troncal": true,
+"region": "Valparaíso",
+"lat": -33.82457,
+"lon": -71.52642
+},
+{
+"id": "cl-077",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.85221,
+"lon": -70.74877
+},
+{
+"id": "cl-078",
+"name": "Angostura",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.90761,
+"lon": -70.73116
+},
+{
+"id": "cl-079",
+"name": "Angostura",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Metropolitana",
+"lat": -33.9076,
+"lon": -70.73117
+},
+{
+"id": "cl-080",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.03762,
+"lon": -70.70591
+},
+{
+"id": "cl-081",
+"name": "Las Arañas",
+"named": true,
+"kind": "portico",
+"troncal": true,
+"region": "O'Higgins",
+"lat": -34.07812,
+"lon": -71.37089
+},
+{
+"id": "cl-082",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.18243,
+"lon": -70.78954
+},
+{
+"id": "cl-083",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.23656,
+"lon": -70.79215
+},
+{
+"id": "cl-084",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.28197,
+"lon": -70.81868
+},
+{
+"id": "cl-085",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.28899,
+"lon": -70.82191
+},
+{
+"id": "cl-086",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.34632,
+"lon": -70.84074
+},
+{
+"id": "cl-087",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.40001,
+"lon": -70.87175
+},
+{
+"id": "cl-088",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.40355,
+"lon": -70.87336
+},
+{
+"id": "cl-089",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.46577,
+"lon": -70.89775
+},
+{
+"id": "cl-090",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.55225,
+"lon": -70.96161
+},
+{
+"id": "cl-091",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.57325,
+"lon": -70.97275
+},
+{
+"id": "cl-092",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.59053,
+"lon": -70.9695
+},
+{
+"id": "cl-093",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.59439,
+"lon": -70.97315
+},
+{
+"id": "cl-094",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.6067,
+"lon": -70.9836
+},
+{
+"id": "cl-095",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.71432,
+"lon": -71.03056
+},
+{
+"id": "cl-096",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.79614,
+"lon": -71.04821
+},
+{
+"id": "cl-097",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.79609,
+"lon": -71.04823
+},
+{
+"id": "cl-098",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.80065,
+"lon": -71.04964
+},
+{
+"id": "cl-099",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "O'Higgins",
+"lat": -34.88378,
+"lon": -71.15053
+},
+{
+"id": "cl-100",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -34.97661,
+"lon": -71.20574
+},
+{
+"id": "cl-101",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -34.98272,
+"lon": -71.21505
+},
+{
+"id": "cl-102",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -34.99396,
+"lon": -71.2324
+},
+{
+"id": "cl-103",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.04998,
+"lon": -71.28116
+},
+{
+"id": "cl-104",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.09433,
+"lon": -71.31886
+},
+{
+"id": "cl-105",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.13344,
+"lon": -71.35469
+},
+{
+"id": "cl-106",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.20973,
+"lon": -71.4113
+},
+{
+"id": "cl-107",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Maule",
+"lat": -35.2097,
+"lon": -71.41127
+},
+{
+"id": "cl-108",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.48937,
+"lon": -71.65927
+},
+{
+"id": "cl-109",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.52128,
+"lon": -71.67671
+},
+{
+"id": "cl-110",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.56623,
+"lon": -71.69801
+},
+{
+"id": "cl-111",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.5772,
+"lon": -71.70664
+},
+{
+"id": "cl-112",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.60094,
+"lon": -71.7064
+},
+{
+"id": "cl-113",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.6036,
+"lon": -71.05667
+},
+{
+"id": "cl-114",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.63368,
+"lon": -71.70665
+},
+{
+"id": "cl-115",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.69499,
+"lon": -71.68617
+},
+{
+"id": "cl-116",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -35.83711,
+"lon": -71.63185
+},
+{
+"id": "cl-117",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Maule",
+"lat": -36.00919,
+"lon": -71.73243
+},
+{
+"id": "cl-118",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -36.00919,
+"lon": -71.73244
+},
+{
+"id": "cl-119",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Maule",
+"lat": -36.15724,
+"lon": -71.81389
+},
+{
+"id": "cl-120",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.41412,
+"lon": -71.94597
+},
+{
+"id": "cl-121",
+"name": "Salida San Carlos",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.43999,
+"lon": -71.96248
+},
+{
+"id": "cl-122",
+"name": "Lateral Cocharcas",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.52446,
+"lon": -72.07242
+},
+{
+"id": "cl-123",
+"name": "Chillán",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.55928,
+"lon": -72.09518
+},
+{
+"id": "cl-124",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.62593,
+"lon": -72.16054
+},
+{
+"id": "cl-125",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.65904,
+"lon": -72.4575
+},
+{
+"id": "cl-126",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.723,
+"lon": -72.27441
+},
+{
+"id": "cl-127",
+"name": "Lateral Rafael",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.72837,
+"lon": -72.86551
+},
+{
+"id": "cl-128",
+"name": "Agua Amarilla",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Ñuble",
+"lat": -36.73003,
+"lon": -72.86021
+},
+{
+"id": "cl-129",
+"name": "Talcahuano",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.73271,
+"lon": -73.08823
+},
+{
+"id": "cl-130",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.74778,
+"lon": -72.28543
+},
+{
+"id": "cl-131",
+"name": "Queime",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Ñuble",
+"lat": -36.75106,
+"lon": -72.58589
+},
+{
+"id": "cl-132",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.75581,
+"lon": -72.29531
+},
+{
+"id": "cl-133",
+"name": "Penco",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.75793,
+"lon": -73.01132
+},
+{
+"id": "cl-134",
+"name": "Ramal Alessandri",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.76932,
+"lon": -73.0507
+},
+{
+"id": "cl-135",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.80424,
+"lon": -73.12784
+},
+{
+"id": "cl-136",
+"name": "Santa Clara",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.90932,
+"lon": -72.34215
+},
+{
+"id": "cl-137",
+"name": "Pórtico",
+"named": false,
+"kind": "portico",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.90948,
+"lon": -72.34218
+},
+{
+"id": "cl-138",
+"name": "Entrada Valle Hermoso",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.91597,
+"lon": -71.42554
+},
+{
+"id": "cl-139",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.93223,
+"lon": -71.5623
+},
+{
+"id": "cl-140",
+"name": "Huinanco",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -36.96031,
+"lon": -72.72839
+},
+{
+"id": "cl-141",
+"name": "Lateral Cabrero",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Ñuble",
+"lat": -37.0441,
+"lon": -72.37163
+},
+{
+"id": "cl-142",
+"name": "Puentes Negros",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.11128,
+"lon": -72.27138
+},
+{
+"id": "cl-143",
+"name": "Chivilingo",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.14916,
+"lon": -73.17423
+},
+{
+"id": "cl-144",
+"name": "Lateral Laja",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.17388,
+"lon": -72.39165
+},
+{
+"id": "cl-145",
+"name": "Lateral Lima",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.23461,
+"lon": -72.36916
+},
+{
+"id": "cl-146",
+"name": "San Roque",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.3557,
+"lon": -72.84023
+},
+{
+"id": "cl-147",
+"name": "Curanilahue",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.38405,
+"lon": -73.33984
+},
+{
+"id": "cl-148",
+"name": "Lateral Rarinco",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.38978,
+"lon": -72.36145
+},
+{
+"id": "cl-149",
+"name": "Lateral María Dolores",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.43842,
+"lon": -72.39661
+},
+{
+"id": "cl-150",
+"name": "Lateral María Dolores",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.44277,
+"lon": -72.3995
+},
+{
+"id": "cl-151",
+"name": "Lateral Santa Fe",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.47994,
+"lon": -72.46272
+},
+{
+"id": "cl-152",
+"name": "Lateral Los Ángeles",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.48176,
+"lon": -72.40518
+},
+{
+"id": "cl-153",
+"name": "Lateral Los Ángeles",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.48597,
+"lon": -72.4042
+},
+{
+"id": "cl-154",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.53173,
+"lon": -72.32654
+},
+{
+"id": "cl-155",
+"name": "Coihue",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Biobío",
+"lat": -37.55742,
+"lon": -72.57998
+},
+{
+"id": "cl-156",
+"name": "Pilpilco",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.57445,
+"lon": -73.41529
+},
+{
+"id": "cl-157",
+"name": "Renaico",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "Biobío",
+"lat": -37.67467,
+"lon": -72.59514
+},
+{
+"id": "cl-158",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.70422,
+"lon": -72.25747
+},
+{
+"id": "cl-159",
+"name": "Las Maicas",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.80653,
+"lon": -72.33089
+},
+{
+"id": "cl-160",
+"name": "Las Maicas",
+"named": true,
+"kind": "portico",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.80656,
+"lon": -72.3309
+},
+{
+"id": "cl-161",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -37.85347,
+"lon": -72.39652
+},
+{
+"id": "cl-162",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -38.23796,
+"lon": -72.35591
+},
+{
+"id": "cl-163",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -38.25112,
+"lon": -72.35913
+},
+{
+"id": "cl-164",
+"name": "Púa",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Biobío",
+"lat": -38.36282,
+"lon": -72.38595
+},
+{
+"id": "cl-165",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.52235,
+"lon": -72.45626
+},
+{
+"id": "cl-166",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.54704,
+"lon": -72.45769
+},
+{
+"id": "cl-167",
+"name": "Las Raíces",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "La Araucanía",
+"lat": -38.55834,
+"lon": -71.4977
+},
+{
+"id": "cl-168",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.66449,
+"lon": -72.48877
+},
+{
+"id": "cl-169",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.77515,
+"lon": -72.58128
+},
+{
+"id": "cl-170",
+"name": "Lateral Licanco",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.78238,
+"lon": -72.61169
+},
+{
+"id": "cl-171",
+"name": "Troncal Quepe",
+"named": true,
+"kind": "plaza",
+"troncal": true,
+"region": "La Araucanía",
+"lat": -38.91576,
+"lon": -72.62414
+},
+{
+"id": "cl-172",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -38.99129,
+"lon": -72.64688
+},
+{
+"id": "cl-173",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -39.35883,
+"lon": -72.63973
+},
+{
+"id": "cl-174",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -39.35933,
+"lon": -72.62093
+},
+{
+"id": "cl-175",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -39.4423,
+"lon": -72.77148
+},
+{
+"id": "cl-176",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "La Araucanía",
+"lat": -39.48038,
+"lon": -72.80644
+},
+{
+"id": "cl-177",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.08739,
+"lon": -72.86466
+},
+{
+"id": "cl-178",
+"name": "de la Unión",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.22813,
+"lon": -72.93879
+},
+{
+"id": "cl-179",
+"name": "Toll Booth Rio Bueno",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.32214,
+"lon": -72.98679
+},
+{
+"id": "cl-180",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.41311,
+"lon": -73.00171
+},
+{
+"id": "cl-181",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.56191,
+"lon": -73.10036
+},
+{
+"id": "cl-182",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.57942,
+"lon": -73.09814
+},
+{
+"id": "cl-183",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.58385,
+"lon": -73.09765
+},
+{
+"id": "cl-184",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.59004,
+"lon": -73.09805
+},
+{
+"id": "cl-185",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Ríos",
+"lat": -40.59483,
+"lon": -73.09911
+},
+{
+"id": "cl-186",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -40.80851,
+"lon": -73.16751
+},
+{
+"id": "cl-187",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -40.9014,
+"lon": -73.15225
+},
+{
+"id": "cl-188",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -40.95911,
+"lon": -73.13393
+},
+{
+"id": "cl-189",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.00914,
+"lon": -73.12033
+},
+{
+"id": "cl-190",
+"name": "Toll Booth Frutillar",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.12008,
+"lon": -73.06256
+},
+{
+"id": "cl-191",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.21455,
+"lon": -73.05595
+},
+{
+"id": "cl-192",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.21931,
+"lon": -73.05256
+},
+{
+"id": "cl-193",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.25548,
+"lon": -73.02187
+},
+{
+"id": "cl-194",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.27218,
+"lon": -73.00743
+},
+{
+"id": "cl-195",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.27675,
+"lon": -73.00736
+},
+{
+"id": "cl-196",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.31632,
+"lon": -73.01074
+},
+{
+"id": "cl-197",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.3198,
+"lon": -73.00761
+},
+{
+"id": "cl-198",
+"name": "Puerto Varas",
+"named": true,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.33343,
+"lon": -72.98783
+},
+{
+"id": "cl-199",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.43868,
+"lon": -72.95636
+},
+{
+"id": "cl-200",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.51683,
+"lon": -73.07798
+},
+{
+"id": "cl-201",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.58922,
+"lon": -73.23338
+},
+{
+"id": "cl-202",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.61704,
+"lon": -73.27378
+},
+{
+"id": "cl-203",
+"name": "Plaza de peaje",
+"named": false,
+"kind": "plaza",
+"troncal": false,
+"region": "Los Lagos",
+"lat": -41.72345,
+"lon": -73.374
+}
+]
+}
