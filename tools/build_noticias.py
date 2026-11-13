@@ -12,13 +12,25 @@ QUERIES = [
     '(autopista OR autopistas OR peaje OR peajes OR "free flow" OR pórtico) Chile when:2d',
     '(TAG autopistas OR "pago tardío" OR concesionaria) Chile when:3d',
     '(precio bencina OR precio combustibles OR ENAP OR MEPCO) Chile when:4d',
-    '(accidente OR desvío OR cierre OR congestión) (autopista OR "Ruta 5" OR "Ruta 68" OR Costanera OR Vespucio) when:1d',
+    '(accidente OR desvío OR cierre OR congestión) (autopista OR "Ruta 5" OR "Ruta 68" OR Costanera OR Vespucio) Chile when:1d',
+    '(autopista OR peaje OR tránsito OR taco) Santiago when:1d',
     '("permiso de circulación" OR "revisión técnica" OR SOAP OR "licencia de conducir") Chile when:4d',
 ]
 KEYWORDS = ("autopista", "peaje", "tag", "pórtico", "portico", "free flow", "bencina", "combustible", "diésel", "diesel",
             "parafina", "enap", "mepco", "tránsito", "transito", "ruta 5", "ruta 68", "ruta 78", "costanera", "vespucio",
             "concesion", "permiso de circulación", "revisión técnica", "soap", "licencia de conducir", "uoct", "carretera",
             "taco", "congestión", "accidente", "desvío", "cierre", "conductores", "automovilistas", "vehículos", "pago tardío")
+# Solo medios chilenos (Google Noticias mezcla otros países aunque se pida la edición Chile).
+CHILE_SOURCES = ("la tercera", "emol", "biobio", "cooperativa", "24horas", "24 horas", "t13", "tele13", "cnn chile", "meganoticias",
+                 "adn", "el mostrador", "diario financiero", "df", "publimetro chile", "the clinic", "chilevisión", "chv",
+                 "agricultura", "la cuarta", "las últimas noticias", "lun", "el dínamo", "ex-ante", "diario concepción",
+                 "el sur", "soy", "infraestructura pública", "universidad de chile", "pauta", "duna", "el desconcierto",
+                 "el mercurio", "mercurio de valparaíso", "la nación", "cambio21", "radio uchile", "tvn", "canal 13",
+                 "elperiodista", "el líbero", "interferencia", "ciper", "economía y negocios", "puranoticia", "sabes",
+                 "el austral", "el llanquihue", "el divisadero", "radio pauta", "fm tiempo", "concierto", "gob.cl", "mop",
+                 "seremi", "diario usach", "glamorama", "terra chile", "msn chile", "chilevision")
+CHILE_WORDS = ("chile", "santiago", "ruta 5", "ruta 68", "ruta 78", "costanera", "vespucio", "concepción", "valparaíso",
+               "mop", "tag", "pórtico", "mepco", "enap", "cne", "carabineros", "uoct", "permiso de circulación")
 PRICE = ("bencina", "combustible", "diésel", "diesel", "parafina", "enap", "mepco", "tarifa", "precio", "alza", "baja", "reajuste")
 ALERT = ("accidente", "desvío", "cierre", "cortes", "corte ", "congestión", "taco", "volcamiento", "colisión", "suspend", "emergencia")
 
@@ -56,6 +68,9 @@ def main():
         for title, src, dt, link in items(root, now):
             low = title.lower()
             if not any(k in low for k in KEYWORDS): continue
+            srcl = src.lower()
+            if not any(c in srcl for c in CHILE_SOURCES): continue
+            if not any(w in low for w in CHILE_WORDS) and "chile" not in srcl and not any(c in srcl for c in CHILE_SOURCES[:30]): continue
             key = re.sub(r"\W+", "", low)[:60]
             if key in seen: continue
             seen.add(key)
