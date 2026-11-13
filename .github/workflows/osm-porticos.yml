@@ -22,12 +22,14 @@ jobs:
             return 1
           }
           get '[out:json][timeout:120];(node["highway"="toll_gantry"](-34.2,-71.8,-32.9,-70.2);node["barrier"="toll_booth"](-34.2,-71.8,-32.9,-70.2););out body;' osm/rm_gantries.json
+          # Todo Chile: plazas de peaje y pórticos (con nombre, ruta y operador si OSM los tiene).
+          get '[out:json][timeout:300];area["ISO3166-1"="CL"][admin_level=2]->.cl;(node["highway"="toll_gantry"](area.cl);node["barrier"="toll_booth"](area.cl);way["barrier"="toll_booth"](area.cl););out center tags;' osm/cl_tolls.json
           get '[out:json][timeout:300];way["highway"~"^(motorway|motorway_link|trunk|trunk_link)$"](-33.80,-71.0,-33.15,-70.40);out body;>;out skel qt;' osm/rm_roads.json
       - name: Guardar en la rama osm
         run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B osm
-          git add -f osm/rm_gantries.json osm/rm_roads.json
+          git add -f osm/rm_gantries.json osm/rm_roads.json osm/cl_tolls.json
           git commit -m "Datos OSM de pórticos y autopistas (© colaboradores de OpenStreetMap, ODbL)"
           git push -f origin osm
