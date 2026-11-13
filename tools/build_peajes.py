@@ -5,6 +5,8 @@ en el mapa de Santiago (osm/porticos_rm.json). Uso: python3 tools/build_peajes.p
 Datos © colaboradores de OpenStreetMap (ODbL).
 """
 import json, math, sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import peajes_regiones as regiones
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -23,7 +25,7 @@ def region(lat, lon):
         return "Metropolitana"
     if lat > -34.95: return "O'Higgins"
     if lat > -36.2: return "Maule"
-    if lat > -37.1: return "Ñuble"
+    if lat > -37.1: return "Biobío" if lon < -72.6 else "Ñuble"
     if lat > -38.45: return "Biobío"
     if lat > -39.6: return "La Araucanía"
     if lat > -40.6: return "Los Ríos"
@@ -88,10 +90,24 @@ def main(src):
             "region": reg,
             "lat": round(lat, 5), "lon": round(lon, 5),
         })
+        conc, plaza = regiones.assign(out[-1])
+        if conc:
+            out[-1]["concession"] = conc["id"]
+            if plaza: out[-1]["plaza"] = plaza["id"]
+    # Un pórtico sin nombre junto a una plaza ya identificada (free flow + casetas) cobra lo mismo.
+    for o in out:
+        if o.get("concession") and "plaza" not in o:
+            twin = next((x for x in out if x is not o and x.get("concession") == o["concession"] and "plaza" in x
+                         and meters((x["lat"], x["lon"]), (o["lat"], o["lon"])) < 300), None)
+            if twin: o["plaza"] = twin["plaza"]
     dst = ROOT / "osm" / "peajes_cl.json"
-    json.dump({"license": "© colaboradores de OpenStreetMap (ODbL)", "tolls": out}, open(dst, "w"), ensure_ascii=False, indent=0)
+    json.dump({"license": "© colaboradores de OpenStreetMap (ODbL)",
+               "tariffs": {"year": 2026, "source": "Dirección General de Concesiones, MOP: Valores de Peajes y Pórticos 2026",
+                           "url": "https://concesiones.mop.gob.cl/peajes-y-porticos/", "concessions": regiones.public()},
+               "tolls": out}, open(dst, "w"), ensure_ascii=False, indent=0)
     by = {}
     for o in out: by[o["region"]] = by.get(o["region"], 0) + 1
+    print(sum("concession" in o for o in out), "con concesión;", sum("plaza" in o for o in out), "con plaza exacta")
     print(len(out), "puntos;", sum(o["named"] for o in out), "con nombre;", by)
 
 if __name__ == "__main__":
