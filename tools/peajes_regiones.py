@@ -154,9 +154,9 @@ CONCESSIONS = [
     {"id": "puerto-montt-pargua", "name": "Ruta 5 Puerto Montt – Pargua", "route": "Ruta 5 Sur", "pdf": "01/PTO-MONTT-PARGUA.pdf",
      "box": [(-41.95, -41.5, -73.9, -72.9)],
      "plazas": [P("troncal", "Troncal", 3100, 900),
-                P("trapen", "Trapén", 850, 250, alias=("trapen",), kind="lateral"),
-                P("maullin", "Maullín", 650, 200, alias=("maullin",), kind="lateral"),
-                P("calbuco", "Calbuco", 1450, 400, alias=("calbuco",), kind="lateral")]},
+                P("trapen", "Trapén", 850, 250, alias=("trapen",), kind="lateral", anchor=(-41.517, -73.078)),
+                P("maullin", "Maullín", 650, 200, alias=("maullin",), kind="lateral", anchor=(-41.589, -73.233)),
+                P("calbuco", "Calbuco", 1450, 400, alias=("calbuco",), kind="lateral", anchor=(-41.723, -73.374))]},
 ]
 
 def fold(s):
@@ -197,6 +197,13 @@ def assign(t):
         anchored = [p for p in ps if p["_anchor"] and _km(p["_anchor"], pos) < 2]
         if anchored: plaza = anchored[0]
         elif name and "lateral" in name: plaza = next((p for p in ps if p["kind"] == "lateral"), None)
+        # Según la vía donde está la caseta (red de OpenStreetMap): en un enlace es lateral, en la ruta es troncal.
+        elif t.get("road") == "link" and sum(p["kind"] == "lateral" for p in ps) == 1:
+            plaza = next(p for p in ps if p["kind"] == "lateral")
+        elif t.get("road") == "link" and any(p["id"] == "lateral" for p in ps):
+            plaza = next(p for p in ps if p["id"] == "lateral")
+        elif t.get("road") == "main" and any(p["id"] == "troncal" for p in ps):
+            plaza = next(p for p in ps if p["id"] == "troncal")
         elif (t.get("troncal") or "troncal" in name) and sum(p["kind"] == "troncal" for p in ps) == 1:
             plaza = next(p for p in ps if p["kind"] == "troncal")
         elif len({(p["auto"], p.get("autoPunta")) for p in ps}) == 1: plaza = ps[0]

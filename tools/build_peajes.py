@@ -67,6 +67,18 @@ def main(src):
             for g in c["gantries"]:
                 for p in g.get("pos", []):
                     known.append((p[0], p[1]))
+    # Tipo de vía de cada caseta (de tools/build_red_cl.py): en la vía principal = troncal; en un enlace = lateral.
+    vias = []
+    vp = ROOT / "osm" / "peajes_vias.json"
+    if vp.exists():
+        vias = [b for b in json.load(open(vp))["booths"] if b.get("highway")]
+    def road_of(members):
+        kinds = set()
+        for m in members:
+            for b in vias:
+                if meters((m["lat"], m["lon"]), (b["lat"], b["lon"])) < 80:
+                    kinds.add("link" if b["highway"].endswith("_link") else "main")
+        return "main" if "main" in kinds else ("link" if kinds else None)
     clusters = []
     for p in pts:
         if any(meters((p["lat"], p["lon"]), k) < 600 for k in known): continue
@@ -90,6 +102,8 @@ def main(src):
             "region": reg,
             "lat": round(lat, 5), "lon": round(lon, 5),
         })
+        road = road_of(c["members"])
+        if road: out[-1]["road"] = road
         conc, plaza = regiones.assign(out[-1])
         if conc:
             out[-1]["concession"] = conc["id"]

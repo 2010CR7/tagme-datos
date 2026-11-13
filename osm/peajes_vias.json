@@ -1,0 +1,3501 @@
+{
+"license": "© colaboradores de OpenStreetMap (ODbL)",
+"booths": [
+{
+"lat": -33.438714,
+"lon": -70.783138,
+"name": "P3 Ruta 68 - Costanera Norte",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.388604,
+"lon": -70.633316,
+"name": "P14 Guanaco - El Salto",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.55888,
+"lon": -70.710586,
+"name": "PA32 - Las Acacias - Lo Blanco",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.456415,
+"lon": -70.898696,
+"name": "Peaje Troncal Lo Prado",
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -34.572124,
+"lon": -70.972746,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.371003,
+"lon": -70.52258,
+"name": "P00 Puente Padre Arteaga - Puente San Francisco",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.061846,
+"lon": -71.457493,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.1615,
+"lon": -71.542052,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.559281,
+"lon": -72.095178,
+"name": "Peaje Chillán",
+"highway": "primary",
+"ref": null,
+"road": "Avenida Libertador Bernardo O'Higgins"
+},
+{
+"lat": -41.439101,
+"lon": -72.956037,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.73008,
+"lon": -72.860217,
+"name": "Peaje Troncal Agua Amarilla",
+"highway": "motorway",
+"ref": "152",
+"road": "Autopista del Itata"
+},
+{
+"lat": -33.31087,
+"lon": -70.70214,
+"name": "Peaje Las Canteras",
+"highway": "motorway",
+"ref": "57",
+"road": "Autopista Los Libertadores"
+},
+{
+"lat": -35.209663,
+"lon": -71.411335,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -32.934973,
+"lon": -71.288251,
+"name": null,
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Los Andes"
+},
+{
+"lat": -40.583851,
+"lon": -73.097648,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.590036,
+"lon": -73.098055,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.594831,
+"lon": -73.09911,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.808509,
+"lon": -73.167507,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.214549,
+"lon": -73.055946,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.062926,
+"lon": -71.434041,
+"name": "Peaje Troncal Sur Rutas del Pacífico",
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Troncal Sur"
+},
+{
+"lat": -33.310711,
+"lon": -70.70248,
+"name": "Peaje Las Canteras",
+"highway": "motorway",
+"ref": "57",
+"road": "Autopista Los Libertadores"
+},
+{
+"lat": -33.282965,
+"lon": -70.702682,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.753036,
+"lon": -71.253196,
+"name": null,
+"highway": "motorway",
+"ref": "F-20",
+"road": "Ruta F-20"
+},
+{
+"lat": -33.366769,
+"lon": -71.308506,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.382239,
+"lon": -70.695562,
+"name": "PA28 - Río Mapocho - Ruta 5 Norte",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.471637,
+"lon": -71.473219,
+"name": "Peaje Troncal F-962-G",
+"highway": "trunk",
+"ref": "F-962-G",
+"road": "Ruta F-962-G"
+},
+{
+"lat": -33.48246,
+"lon": -71.581703,
+"name": "Peaje Troncal Nuevo Camino Costero",
+"highway": "trunk",
+"ref": "G-948",
+"road": "Nuevo Camino Costero"
+},
+{
+"lat": -33.417186,
+"lon": -70.678723,
+"name": "PA16 - Río Mapocho - 14 de la Fama - Américo Vespucio Norte",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -32.629653,
+"lon": -71.230569,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.629614,
+"lon": -71.230857,
+"name": "Peaje Tunel el Melon",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.80626,
+"lon": -70.067228,
+"name": "Peaje Las Cuevas",
+"highway": "trunk",
+"ref": "RN7",
+"road": "Carretera Libertador General San Martín"
+},
+{
+"lat": -33.063448,
+"lon": -71.434126,
+"name": "Peaje Troncal Sur Rutas del Pacífico",
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Troncal Sur"
+},
+{
+"lat": -33.061511,
+"lon": -71.457091,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.625933,
+"lon": -72.160539,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.99396,
+"lon": -71.232402,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.982717,
+"lon": -71.215052,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.050782,
+"lon": -71.282286,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.049183,
+"lon": -71.280033,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.755814,
+"lon": -72.29531,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.574447,
+"lon": -73.41535,
+"name": "Peaje Pilpilco",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -36.751061,
+"lon": -72.585888,
+"name": "Peaje Troncal Queime",
+"highway": null
+},
+{
+"lat": -33.30552,
+"lon": -71.411215,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.328601,
+"lon": -71.390358,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.561913,
+"lon": -73.10036,
+"name": null,
+"highway": "primary",
+"ref": null,
+"road": "Pilauco"
+},
+{
+"lat": -36.732714,
+"lon": -73.088227,
+"name": "Peaje Talcahuano",
+"highway": "trunk",
+"ref": null,
+"road": "Ruta Interportuaria"
+},
+{
+"lat": -36.439987,
+"lon": -71.962482,
+"name": "Salida San Carlos",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.915969,
+"lon": -71.425539,
+"name": "Entrada Valle Hermoso",
+"highway": null
+},
+{
+"lat": -36.414122,
+"lon": -71.94597,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.818407,
+"lon": -70.751252,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.822059,
+"lon": -70.751439,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.852205,
+"lon": -70.748769,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.93498,
+"lon": -71.288361,
+"name": null,
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Los Andes"
+},
+{
+"lat": -33.82457,
+"lon": -71.526424,
+"name": "Peaje Troncal San Pedro",
+"highway": "trunk",
+"ref": "66",
+"road": "Ruta de la Fruta"
+},
+{
+"lat": -33.27008,
+"lon": -70.73546,
+"name": "Peaje San José",
+"highway": "primary",
+"ref": "73",
+"road": "Ruta 73"
+},
+{
+"lat": -34.037618,
+"lon": -70.705914,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.72999,
+"lon": -72.860209,
+"name": "Peaje Troncal Agua Amarilla",
+"highway": "motorway",
+"ref": "152",
+"road": "Autopista del Itata"
+},
+{
+"lat": -36.76932,
+"lon": -73.050699,
+"name": "Peaje Ramal Alessandri",
+"highway": "trunk",
+"ref": null,
+"road": "Avenida Jorge Alessandri"
+},
+{
+"lat": -37.806423,
+"lon": -72.331025,
+"name": "Peaje Las Maicas",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -37.806641,
+"lon": -72.33076,
+"name": "Peaje Las Maicas",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -38.915745,
+"lon": -72.624257,
+"name": "Troncal Quepe",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -38.362824,
+"lon": -72.385891,
+"name": "Púa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.909286,
+"lon": -72.34237,
+"name": "Peaje Santa Clara",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.909353,
+"lon": -72.341925,
+"name": "Peaje Santa Clara",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.647339,
+"lon": -70.711611,
+"name": "PA2 - Los Guindos - La Capilla",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.000788,
+"lon": -70.687245,
+"name": "Peaje Chacabuco",
+"highway": "trunk",
+"ref": "57",
+"road": "Autopista Los Libertadores"
+},
+{
+"lat": -38.664489,
+"lon": -72.488775,
+"name": "Peaje Lateral Temuco Norte",
+"highway": "primary",
+"ref": null,
+"road": "Avenida Rudecindo Ortega"
+},
+{
+"lat": -38.782385,
+"lon": -72.611686,
+"name": "Peaje Lateral Licanco",
+"highway": "primary",
+"ref": null,
+"road": "Panamericana Sur"
+},
+{
+"lat": -34.236562,
+"lon": -70.792153,
+"name": null,
+"highway": "trunk",
+"ref": "95",
+"road": "Ruta Travesía"
+},
+{
+"lat": -33.311318,
+"lon": -70.634252,
+"name": "Pórtico 64 Troncal Oriente",
+"highway": "motorway",
+"ref": "77",
+"road": "Autopista Nororiente"
+},
+{
+"lat": -32.972114,
+"lon": -71.300955,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.484865,
+"lon": -70.741021,
+"name": "Américo Vespucio",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.484758,
+"lon": -70.741127,
+"name": "Américo Vespucio",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -36.65835,
+"lon": -72.457709,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.659723,
+"lon": -72.457296,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -38.915775,
+"lon": -72.624017,
+"name": "Troncal Quepe",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -34.883785,
+"lon": -71.150528,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.319802,
+"lon": -73.007608,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.633676,
+"lon": -71.706645,
+"name": null,
+"highway": "primary",
+"ref": "L-30-K",
+"road": "Ruta L-30-K"
+},
+{
+"lat": -35.600938,
+"lon": -71.706395,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.157235,
+"lon": -71.81389,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.3988,
+"lon": -70.615132,
+"name": "P102 Kennedy - El salto",
+"highway": "motorway",
+"ref": null,
+"road": "Túnel San Cristóbal"
+},
+{
+"lat": -35.521282,
+"lon": -71.676707,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.18092,
+"lon": -70.790648,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.465564,
+"lon": -70.898352,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.465977,
+"lon": -70.897147,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.552804,
+"lon": -70.961795,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.574384,
+"lon": -70.972747,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.551701,
+"lon": -70.961434,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.276747,
+"lon": -73.007361,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.256259,
+"lon": -73.020461,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.2547,
+"lon": -73.023277,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.272176,
+"lon": -73.007425,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.219311,
+"lon": -73.052557,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -38.991293,
+"lon": -72.646876,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.438497,
+"lon": -72.956409,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.333435,
+"lon": -72.987826,
+"name": "Peaje Puerto Varas",
+"highway": null
+},
+{
+"lat": -33.673356,
+"lon": -71.167637,
+"name": "Peaje Variante Melipilla",
+"highway": "primary",
+"ref": "G-60",
+"road": "Variante Melipilla"
+},
+{
+"lat": -38.77515,
+"lon": -72.581283,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -30.19738,
+"lon": -71.387961,
+"name": "Peaje Lateral Guanaqueros",
+"highway": null
+},
+{
+"lat": -30.351708,
+"lon": -71.432331,
+"name": "Peaje Lateral Tongoy Acceso Sur",
+"highway": null
+},
+{
+"lat": -40.087391,
+"lon": -72.864659,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.489366,
+"lon": -71.659271,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.722996,
+"lon": -72.274406,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -39.358835,
+"lon": -72.639728,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.044097,
+"lon": -72.371628,
+"name": "Peaje Lateral Cabrero",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -30.707482,
+"lon": -71.488889,
+"name": null,
+"highway": "trunk",
+"ref": "45",
+"road": "Ruta 45"
+},
+{
+"lat": -41.120083,
+"lon": -73.062558,
+"name": "Toll Booth Frutillar",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.531588,
+"lon": -72.32506,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.485974,
+"lon": -72.404196,
+"name": "Peaje Lateral Los Ángeles",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.481763,
+"lon": -72.405178,
+"name": "Peaje Lateral Los Ángeles",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.531878,
+"lon": -72.32802,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.234609,
+"lon": -72.36916,
+"name": "Peaje Lateral Lima",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.442772,
+"lon": -72.399496,
+"name": "Peaje Lateral María Dolores",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.438419,
+"lon": -72.39661,
+"name": "Peaje Lateral María Dolores",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.390908,
+"lon": -72.361518,
+"name": "Peaje Lateral Rarinco",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.388644,
+"lon": -72.361392,
+"name": "Peaje Lateral Rarinco",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.607718,
+"lon": -70.984086,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.60568,
+"lon": -70.983124,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.714321,
+"lon": -71.030564,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.403547,
+"lon": -70.873365,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.400011,
+"lon": -70.871746,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.316323,
+"lon": -73.01074,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.728327,
+"lon": -72.865645,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.728414,
+"lon": -72.865382,
+"name": "Peaje Lateral Rafael",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -38.547038,
+"lon": -72.457688,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -38.362812,
+"lon": -72.386019,
+"name": "Púa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -39.480405,
+"lon": -72.80634,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -39.442302,
+"lon": -72.771481,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -39.480365,
+"lon": -72.806531,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -40.228159,
+"lon": -72.938711,
+"name": "Peaje de la Unión",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -40.228106,
+"lon": -72.938861,
+"name": "Peaje de la Unión",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -40.413107,
+"lon": -73.001714,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.959093,
+"lon": -73.13386,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -40.959117,
+"lon": -73.133997,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -41.009143,
+"lon": -73.120332,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.095577,
+"lon": -71.319602,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.093077,
+"lon": -71.318112,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.183931,
+"lon": -70.788434,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.34667,
+"lon": -70.840725,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.281973,
+"lon": -70.818679,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.34597,
+"lon": -70.840755,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.288986,
+"lon": -70.821905,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.704223,
+"lon": -72.257473,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -38.558362,
+"lon": -71.497735,
+"name": "Peaje Troncal Las Raíces",
+"highway": "trunk",
+"ref": "181",
+"road": "Ruta 181 CH"
+},
+{
+"lat": -40.322137,
+"lon": -72.986786,
+"name": "Toll Booth Rio Bueno",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.472964,
+"lon": -71.599221,
+"name": "Peaje Lateral Las Cruces",
+"highway": "primary",
+"ref": "G-984",
+"road": "Avenida Las Cruces Norte"
+},
+{
+"lat": -31.420145,
+"lon": -71.570709,
+"name": "Peaje Puerto Oscuro",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -31.420199,
+"lon": -71.570835,
+"name": "Peaje Puerto Oscuro",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.901303,
+"lon": -71.245815,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.902746,
+"lon": -71.249396,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.901401,
+"lon": -73.152246,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.174962,
+"lon": -71.520674,
+"name": "Peaje Pichidangui",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.174895,
+"lon": -71.521059,
+"name": "Peaje Pichidangui",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -35.209735,
+"lon": -71.411207,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -35.694987,
+"lon": -71.68617,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -20.495595,
+"lon": -70.161717,
+"name": null,
+"highway": "motorway",
+"ref": "1",
+"road": "Ruta 1"
+},
+{
+"lat": -38.522351,
+"lon": -72.456262,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.133437,
+"lon": -71.35469,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -36.747784,
+"lon": -72.285426,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -39.359334,
+"lon": -72.620928,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.173878,
+"lon": -72.391654,
+"name": "Peaje Lateral Laja",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.438455,
+"lon": -72.956634,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -38.237956,
+"lon": -72.355913,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -35.837108,
+"lon": -71.631851,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -23.310564,
+"lon": -70.419055,
+"name": "Peaje Troncal Ruta 1",
+"highway": "motorway",
+"ref": "1",
+"road": "Ruta 1"
+},
+{
+"lat": -23.310605,
+"lon": -70.418984,
+"name": "Peaje Troncal Ruta 1",
+"highway": "motorway",
+"ref": "1",
+"road": "Ruta 1"
+},
+{
+"lat": -38.251117,
+"lon": -72.359127,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -27.348174,
+"lon": -70.636375,
+"name": "Peaje Puerto Viejo",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -27.348294,
+"lon": -70.636334,
+"name": "Peaje Puerto Viejo",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.235734,
+"lon": -70.759217,
+"name": "Peaje Lampa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.235567,
+"lon": -70.758605,
+"name": "Peaje Lampa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -27.997073,
+"lon": -70.565916,
+"name": "Peaje Totoral",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -27.997114,
+"lon": -70.565755,
+"name": "Peaje Totoral",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.439602,
+"lon": -70.607946,
+"name": null,
+"highway": null
+},
+{
+"lat": -30.408191,
+"lon": -71.445538,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -30.408219,
+"lon": -71.445402,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -31.44608,
+"lon": -71.56125,
+"name": null,
+"highway": "primary",
+"ref": "D-71",
+"road": "Ruta D-71"
+},
+{
+"lat": -23.451562,
+"lon": -70.43122,
+"name": "Peaje Lateral Acceso Ruta 1 Sector Aeropuerto",
+"highway": null
+},
+{
+"lat": -23.448667,
+"lon": -70.440258,
+"name": null,
+"highway": null
+},
+{
+"lat": -33.368582,
+"lon": -70.699104,
+"name": "PA17 - 14 de la Fama - Américo Vespucio Norte",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -27.365516,
+"lon": -70.952691,
+"name": null,
+"highway": null
+},
+{
+"lat": -20.495615,
+"lon": -70.161594,
+"name": null,
+"highway": "motorway",
+"ref": "1",
+"road": "Ruta 1"
+},
+{
+"lat": -35.603597,
+"lon": -71.056671,
+"name": null,
+"highway": null
+},
+{
+"lat": -32.97335,
+"lon": -71.302674,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.875029,
+"lon": -71.230781,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.875537,
+"lon": -71.231631,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.769514,
+"lon": -70.703814,
+"name": null,
+"highway": "trunk_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.769255,
+"lon": -70.703584,
+"name": null,
+"highway": "trunk_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -40.579419,
+"lon": -73.098143,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.400596,
+"lon": -71.497672,
+"name": "Peaje Troncal F-90",
+"highway": "trunk",
+"ref": "F-90-G",
+"road": "Ruta F-90-G"
+},
+{
+"lat": -33.387681,
+"lon": -70.542926,
+"name": "P07 Estoril - Las Tranqueras",
+"highway": "motorway",
+"ref": null,
+"road": "Avenida Presidente Kennedy"
+},
+{
+"lat": -33.547899,
+"lon": -70.697007,
+"name": "PA7 - Las Acacias - Américo Vespucio",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.547627,
+"lon": -70.696839,
+"name": "PA8 - Américo Vespucio - Las Acacias",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.425408,
+"lon": -70.625297,
+"name": null,
+"highway": null
+},
+{
+"lat": -35.566234,
+"lon": -71.698011,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.384033,
+"lon": -73.339916,
+"name": "Peaje Curanilahue",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -37.384059,
+"lon": -73.339757,
+"name": "Peaje Curanilahue",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -37.574456,
+"lon": -73.415231,
+"name": "Peaje Pilpilco",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -33.426438,
+"lon": -70.669833,
+"name": "P05 Vivaceta - Carrascal",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -34.590528,
+"lon": -70.9695,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.58903,
+"lon": -73.233472,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.589405,
+"lon": -73.233298,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.617085,
+"lon": -73.273707,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -41.616994,
+"lon": -73.27386,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.394444,
+"lon": -70.603386,
+"name": "P2.2 Puente Lo Saldes - Centenario",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.37582,
+"lon": -70.542649,
+"name": "P01 Puente La Dehesa - Gran Vía",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -41.516979,
+"lon": -73.077778,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.516688,
+"lon": -73.078186,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.439603,
+"lon": -70.607888,
+"name": null,
+"highway": null
+},
+{
+"lat": -34.976611,
+"lon": -71.205738,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.408141,
+"lon": -70.599763,
+"name": "P8.1 Las Tranqueras - Costanera Norte (Longitud 5,46 Kms)",
+"highway": "motorway",
+"ref": null,
+"road": "Avenida Presidente Kennedy"
+},
+{
+"lat": -32.900681,
+"lon": -70.24891,
+"name": "Peaje Troncal Cristo Redentor",
+"highway": "trunk",
+"ref": "60",
+"road": "Ruta 60 CH"
+},
+{
+"lat": -29.086711,
+"lon": -70.917138,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -37.355697,
+"lon": -72.840231,
+"name": "Peaje San Roque",
+"highway": "trunk",
+"ref": "156",
+"road": "Ruta de la Madera"
+},
+{
+"lat": -38.55832,
+"lon": -71.497671,
+"name": "Peaje Troncal Las Raíces",
+"highway": "trunk",
+"ref": "181",
+"road": "Ruta 181 CH"
+},
+{
+"lat": -23.453842,
+"lon": -70.125186,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -23.453956,
+"lon": -70.125175,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -37.14924,
+"lon": -73.174141,
+"name": "Peaje Chivilingo",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -37.149071,
+"lon": -73.174323,
+"name": "Peaje Chivilingo",
+"highway": "motorway",
+"ref": "160",
+"road": "Ruta 160"
+},
+{
+"lat": -33.907806,
+"lon": -70.73144,
+"name": "Peaje Angostura",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.340624,
+"lon": -71.366673,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -29.371009,
+"lon": -71.073152,
+"name": "Peaje Punta Colorada",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -29.371105,
+"lon": -71.073083,
+"name": "Peaje Punta Colorada",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -29.08674,
+"lon": -70.916949,
+"name": "Peaje Cachiyuyo Troncal",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.469011,
+"lon": -70.656243,
+"name": "PA31 - Carlos Valdovinos - Alameda",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.483359,
+"lon": -70.753094,
+"name": "P1 Ruta 78 - Santa Elena",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -22.534205,
+"lon": -67.648934,
+"name": null,
+"highway": "primary",
+"ref": null,
+"road": "Camino Hito Cajón-Laguna Colorada"
+},
+{
+"lat": -30.330342,
+"lon": -71.244131,
+"name": null,
+"highway": "motorway",
+"ref": "43",
+"road": "Ruta 43"
+},
+{
+"lat": -33.907402,
+"lon": -70.730908,
+"name": "Peaje Angostura",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.524511,
+"lon": -72.072498,
+"name": "Lateral Cocharcas",
+"highway": "primary",
+"ref": "N-50",
+"road": "Ruta N-50"
+},
+{
+"lat": -35.577199,
+"lon": -71.706641,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.796102,
+"lon": -71.048162,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -34.800652,
+"lon": -71.049635,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.299471,
+"lon": -70.670493,
+"name": "Pórtico 63 Troncal Poniente",
+"highway": "motorway",
+"ref": "77",
+"road": "Autopista Nororiente"
+},
+{
+"lat": -33.299381,
+"lon": -70.670492,
+"name": "Pórtico 62 Troncal Poniente",
+"highway": "motorway",
+"ref": "77",
+"road": "Autopista Nororiente"
+},
+{
+"lat": -33.311387,
+"lon": -70.634191,
+"name": "Pórtico 65 Troncal Oriente",
+"highway": "motorway",
+"ref": "77",
+"road": "Autopista Nororiente"
+},
+{
+"lat": -33.907615,
+"lon": -70.731267,
+"name": "Peaje Angostura",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.9076,
+"lon": -70.731062,
+"name": "Peaje Angostura",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.388184,
+"lon": -70.601754,
+"name": null,
+"highway": null
+},
+{
+"lat": -33.536473,
+"lon": -70.707659,
+"name": "PA20 - Américo Vespucio - Ruta 5 Sur",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -36.960264,
+"lon": -72.728382,
+"name": "Peaje Huinanco",
+"highway": "motorway",
+"ref": "146",
+"road": "Autopista Concepción - Cabrero"
+},
+{
+"lat": -36.960358,
+"lon": -72.728407,
+"name": "Peaje Huinanco",
+"highway": "motorway",
+"ref": "146",
+"road": "Autopista Concepción - Cabrero"
+},
+{
+"lat": -37.111343,
+"lon": -72.271411,
+"name": "Peaje Puentes Negros",
+"highway": "primary",
+"ref": "Q-97-N",
+"road": "Ruta Q-97-N"
+},
+{
+"lat": -34.79606,
+"lon": -71.048489,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -33.457356,
+"lon": -70.898357,
+"name": "Peaje Troncal Lo Prado",
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.605032,
+"lon": -70.604663,
+"name": "Tocornal Poniente",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.482867,
+"lon": -70.753573,
+"name": "P17 Los Mares - Ruta 78",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.552831,
+"lon": -70.813902,
+"name": "Padre Hurtado",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.325918,
+"lon": -70.624287,
+"name": "Pórtico 61 Lateral",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.324694,
+"lon": -70.624804,
+"name": "Pórtico 60 Lateral",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.426442,
+"lon": -70.67014,
+"name": "P05 Carrascal - Vivaceta",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.408073,
+"lon": -70.599764,
+"name": "P8.0 Las Tranqueras - Costanera Norte",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.415283,
+"lon": -70.792964,
+"name": null,
+"highway": null
+},
+{
+"lat": -30.330357,
+"lon": -71.244256,
+"name": null,
+"highway": "motorway",
+"ref": "43",
+"road": "Ruta 43"
+},
+{
+"lat": -33.40909,
+"lon": -70.604327,
+"name": "P8.0 Costanera Norte - Las Tranqueras",
+"highway": "motorway",
+"ref": null,
+"road": "Avenida Presidente Kennedy"
+},
+{
+"lat": -33.409071,
+"lon": -70.603899,
+"name": "P8.1 Costanera Norte - Las Tranqueras",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -37.853471,
+"lon": -72.396516,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.208953,
+"lon": -70.668045,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.468848,
+"lon": -70.656558,
+"name": "PA12 - Alameda - Carlos Valdovinos",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.448923,
+"lon": -70.659592,
+"name": "PA13 - Alameda - Río Mapocho",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.448382,
+"lon": -70.660086,
+"name": "PA14 - Río Mapocho - Alameda",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.368298,
+"lon": -70.699426,
+"name": "PA18 - Américo Vespucio Norte - 14 de la Fama",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.551404,
+"lon": -70.709061,
+"name": "PA19 - Ruta 5 Sur - Américo Vespucio",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.541153,
+"lon": -70.61502,
+"name": "P4.3 Coronel - Santa Julia",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.526802,
+"lon": -70.602574,
+"name": "P4.2 Gnmo. de Alderete - Vicuña Mackena",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.505861,
+"lon": -70.728455,
+"name": "P1.3 2a Transversal - Camino a Melipilla",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.516561,
+"lon": -70.712534,
+"name": "P1.1 General Velásquez - Ruta 78",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.526262,
+"lon": -70.694103,
+"name": "P2.2 Gral. Velásquez - Ruta 5",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.526052,
+"lon": -70.694017,
+"name": "P2.1 Ruta 5 - General Velásquez",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.533585,
+"lon": -70.676345,
+"name": "P3.3 Gran Avenida - Ruta 5",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.533816,
+"lon": -70.676451,
+"name": "P3.4 Ruta 5 - Gran Avenida",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.539842,
+"lon": -70.652997,
+"name": "P3.2 Gran Avenida - Santa Rosa",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.539608,
+"lon": -70.652943,
+"name": "P3.1 Santa Rosa - Gran Avenida",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.398616,
+"lon": -70.615725,
+"name": "P101 Salto - Kennedy",
+"highway": "motorway",
+"ref": null,
+"road": "Túnel San Cristóbal"
+},
+{
+"lat": -33.621981,
+"lon": -70.714868,
+"name": "PA4 - Calera de Tango - La Capilla",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.622759,
+"lon": -70.71457,
+"name": "PA3 - La Capilla - Colón",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.582754,
+"lon": -70.713842,
+"name": "PA5 - Colón - Las Acacias",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.582412,
+"lon": -70.713975,
+"name": "PA6 - Lo Blanco - Colón",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.43028,
+"lon": -70.657227,
+"name": "EV Entrada Vivaceta",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.430225,
+"lon": -70.657961,
+"name": "P04 Vivaceta - Torres Tajamar",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.426515,
+"lon": -70.668895,
+"name": "PA15 - 14 de la Fama - Río Mapocho",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.387206,
+"lon": -70.541372,
+"name": "P07 Las Tranqueras - Estoril",
+"highway": "motorway",
+"ref": null,
+"road": "Avenida Presidente Kennedy"
+},
+{
+"lat": -33.469061,
+"lon": -70.688127,
+"name": "PA23 - Carlos Valdovinos - Alameda",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.469838,
+"lon": -70.688245,
+"name": "PA24 - Alameda - Carlos Valdovinos",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.506426,
+"lon": -70.697251,
+"name": "PA21 - Américo Vespucio - Carlos Valdovinos",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.505631,
+"lon": -70.69702,
+"name": "PA22 - Carlos Valdovinos - Américo Vespucio",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.381938,
+"lon": -70.695474,
+"name": "PA29 - Ruta 5 Norte - Río Mapocho",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.44674,
+"lon": -70.69208,
+"name": "PA25 - Alameda - Río Mapocho",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.447452,
+"lon": -70.692286,
+"name": "PA26 - Río Mapocho - Alameda",
+"highway": "motorway",
+"ref": null,
+"road": "General Velásquez"
+},
+{
+"lat": -33.495772,
+"lon": -70.663899,
+"name": "PA10 - Departamental - Carlos Valdovinos",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.495349,
+"lon": -70.663893,
+"name": "PA11 - Carlos Valdovinos - Departamental",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.507148,
+"lon": -70.669424,
+"name": "PA9 - Departamental - Américo Vespucio",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.507288,
+"lon": -70.669319,
+"name": "PA30 - Américo Vespucio - Departamental",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.399353,
+"lon": -70.775564,
+"name": "P6 Condell - Costanera Norte",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.399624,
+"lon": -70.775638,
+"name": "P5 Costanera Norte - Condell",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.431288,
+"lon": -70.784851,
+"name": "P4 Costanera Norte - Ruta 68",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.496067,
+"lon": -70.584502,
+"name": "P5.4 Las Torres - Quilín",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.495558,
+"lon": -70.584456,
+"name": "P5.3 Quilín - Las Torres",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.480945,
+"lon": -70.579043,
+"name": "P5.1 Grecia - Quilín",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.481004,
+"lon": -70.578773,
+"name": "P5.2 Quilín - Grecia",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.394409,
+"lon": -70.603526,
+"name": "P2.2 Centenario - Puente Lo Saldes",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.388664,
+"lon": -70.632967,
+"name": "P15 El Salto - Recoleta",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.373394,
+"lon": -70.664973,
+"name": "P12 Pedro Fontova - Guanaco",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.373364,
+"lon": -70.664615,
+"name": "P13 Recoleta - Pedro Fontova",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.365821,
+"lon": -70.695114,
+"name": "P11 Pedro Fontova - Ruta 5 Norte",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.365948,
+"lon": -70.696904,
+"name": "P10 Ruta 5 Norte - Pedro Fontova",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.368877,
+"lon": -70.704343,
+"name": "P9 Lo Echevers - Ruta 5 Norte",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.373036,
+"lon": -70.711303,
+"name": "P8 Ruta 5 Norte - Condell",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.38132,
+"lon": -70.753937,
+"name": "P7 Condell - Lo Echevers",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.375729,
+"lon": -70.54306,
+"name": "P01 Gran Vía - Puente La Dehesa",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -34.594025,
+"lon": -70.973092,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.339828,
+"lon": -70.712005,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.235598,
+"lon": -70.759036,
+"name": "Peaje Lampa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.235629,
+"lon": -70.758836,
+"name": "Peaje Lampa",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.416596,
+"lon": -70.792727,
+"name": "Peaje Acceso Vial AMB",
+"highway": "motorway",
+"ref": "72",
+"road": "Autopista Aeropuerto"
+},
+{
+"lat": -32.760209,
+"lon": -70.828352,
+"name": "Peaje Panquehue",
+"highway": "trunk",
+"ref": "60",
+"road": "Autopista Los Andes"
+},
+{
+"lat": -32.760279,
+"lon": -70.828287,
+"name": "Peaje Panquehue",
+"highway": "trunk",
+"ref": "60",
+"road": "Autopista Los Andes"
+},
+{
+"lat": -37.111213,
+"lon": -72.271352,
+"name": "Peaje Puentes Negros",
+"highway": "primary",
+"ref": "Q-97-N",
+"road": "Ruta Q-97-N"
+},
+{
+"lat": -33.581996,
+"lon": -70.611236,
+"name": "Peaje Gabriela Poniente",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.581699,
+"lon": -70.610295,
+"name": "Peaje Gabriela Oriente",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.418078,
+"lon": -70.791003,
+"name": "P09 Ruta 68 - Américo Vespucio Poniente",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.417858,
+"lon": -70.790855,
+"name": "P09 Américo Vespucio Poniente - Ruta 68",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.413064,
+"lon": -70.766743,
+"name": "P6.2 Américo Vespucio Poniente - Petersen",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.412972,
+"lon": -70.766457,
+"name": "P6.2 Petersen - Américo Vespucio Poniente",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.604773,
+"lon": -70.603875,
+"name": "Tocornal Oriente",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.339815,
+"lon": -70.712212,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.357992,
+"lon": -70.704091,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.358007,
+"lon": -70.703834,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.371552,
+"lon": -71.300062,
+"name": "Peaje Zapata Rutas del Pacífico",
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.370647,
+"lon": -71.299468,
+"name": "Peaje Zapata Rutas del Pacífico",
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.27992,
+"lon": -70.739095,
+"name": "Pórtico 8 - Enlace Lo Pinto",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.27995,
+"lon": -70.73888,
+"name": "Pórtico 7 - Enlace Lo Pinto",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.317078,
+"lon": -70.722419,
+"name": "Pórtico 6 - Paso Superior La Montaña",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.31711,
+"lon": -70.722201,
+"name": "Pórtico 5 - Paso Superior La Montaña",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -20.21606,
+"lon": -69.903442,
+"name": null,
+"highway": "motorway",
+"ref": "16",
+"road": "Ruta 16"
+},
+{
+"lat": -20.216173,
+"lon": -69.903414,
+"name": null,
+"highway": "motorway",
+"ref": "16",
+"road": "Ruta 16"
+},
+{
+"lat": -36.75793,
+"lon": -73.011316,
+"name": "Peaje Penco",
+"highway": "trunk",
+"ref": null,
+"road": "Ruta Interportuaria"
+},
+{
+"lat": -33.396148,
+"lon": -70.604134,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.391634,
+"lon": -70.597093,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.396448,
+"lon": -70.6198,
+"name": null,
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Oriente"
+},
+{
+"lat": -33.39525,
+"lon": -70.61011,
+"name": null,
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Oriente"
+},
+{
+"lat": -36.932226,
+"lon": -71.562298,
+"name": null,
+"highway": null
+},
+{
+"lat": -33.430139,
+"lon": -70.574703,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.42597,
+"lon": -70.575685,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.420415,
+"lon": -70.58142,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.396604,
+"lon": -70.588756,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.392756,
+"lon": -70.592471,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.400234,
+"lon": -70.587549,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.409402,
+"lon": -70.586971,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.42443,
+"lon": -70.578416,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -41.723446,
+"lon": -73.374003,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.669301,
+"lon": -71.150724,
+"name": "Pomaire",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.38965,
+"lon": -70.600007,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.432543,
+"lon": -70.574492,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.412457,
+"lon": -70.582035,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.401491,
+"lon": -70.580488,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.405036,
+"lon": -70.586333,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -34.796225,
+"lon": -71.047935,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -34.595118,
+"lon": -70.973241,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.806383,
+"lon": -70.067306,
+"name": "Peaje Las Cuevas",
+"highway": "trunk",
+"ref": "RN7",
+"road": "Carretera Libertador General San Martín"
+},
+{
+"lat": -33.409988,
+"lon": -70.602224,
+"name": "P8.3 Costanera Norte - Las Tranqueras",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.408491,
+"lon": -70.601945,
+"name": "P8.2 Costanera Norte - Las Tranqueras",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.422147,
+"lon": -70.619825,
+"name": "SB Salida Bellavista",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.596894,
+"lon": -70.715792,
+"name": "PA37 - Colón - Calera de Tango",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -33.45638,
+"lon": -70.767152,
+"name": "P2 Ruta 68 - Los Mares",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.451213,
+"lon": -70.772985,
+"name": "P16 Santa Elena - Ruta 68",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Norte"
+},
+{
+"lat": -33.52979,
+"lon": -70.604845,
+"name": "P4.1 Gnmo. de Alderete - Santa Julia",
+"highway": "motorway",
+"ref": "70",
+"road": "Autopista Vespucio Sur"
+},
+{
+"lat": -33.371209,
+"lon": -70.522911,
+"name": "P00 Puente San Francisco - Puente Padre Arteaga",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.384604,
+"lon": -70.592696,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.384683,
+"lon": -70.592604,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.424113,
+"lon": -70.621811,
+"name": "P03 Torres Tajamar - Puente Lo Saldes",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.423992,
+"lon": -70.621955,
+"name": "P03 Puente Lo Saldes - Vivaceta",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.411826,
+"lon": -70.739583,
+"name": "P6.1 Petersen - Carrascal",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.41171,
+"lon": -70.739581,
+"name": "P6.1 Carrascal - Petersen",
+"highway": "motorway",
+"ref": null,
+"road": "Autopista Costanera Norte"
+},
+{
+"lat": -33.309983,
+"lon": -70.701857,
+"name": "Peaje Las Canteras",
+"highway": "motorway",
+"ref": "57",
+"road": "Autopista Los Libertadores"
+},
+{
+"lat": -33.310002,
+"lon": -70.701748,
+"name": "Peaje Las Canteras",
+"highway": "motorway",
+"ref": "57",
+"road": "Autopista Los Libertadores"
+},
+{
+"lat": -33.455517,
+"lon": -70.894855,
+"name": null,
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.455434,
+"lon": -70.894898,
+"name": null,
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.369045,
+"lon": -71.303257,
+"name": null,
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.368968,
+"lon": -71.3032,
+"name": null,
+"highway": "motorway",
+"ref": "68",
+"road": "Ruta 68"
+},
+{
+"lat": -33.402401,
+"lon": -70.581692,
+"name": "P8.3 Costanera Norte - Las Tranqueras",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.927381,
+"lon": -71.286487,
+"name": null,
+"highway": "primary",
+"ref": "64",
+"road": "Ruta 64"
+},
+{
+"lat": -33.063522,
+"lon": -71.431671,
+"name": null,
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Troncal Sur"
+},
+{
+"lat": -33.063407,
+"lon": -71.431655,
+"name": null,
+"highway": "motorway",
+"ref": "60",
+"road": "Autopista Troncal Sur"
+},
+{
+"lat": -33.695435,
+"lon": -70.723672,
+"name": "PA1 - La Capilla - Los Guindos",
+"highway": "motorway",
+"ref": "5",
+"road": "Autopista Central"
+},
+{
+"lat": -32.629664,
+"lon": -71.230794,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.629687,
+"lon": -71.230671,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -33.409307,
+"lon": -70.586937,
+"name": null,
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -33.365621,
+"lon": -70.801663,
+"name": null,
+"highway": null
+},
+{
+"lat": -33.365656,
+"lon": -70.801689,
+"name": null,
+"highway": null
+},
+{
+"lat": -34.796083,
+"lon": -71.048305,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -35.209602,
+"lon": -71.411513,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -35.209853,
+"lon": -71.411092,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.009234,
+"lon": -71.732355,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.009152,
+"lon": -71.732504,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.009325,
+"lon": -71.732221,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.009054,
+"lon": -71.732662,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -32.753365,
+"lon": -71.2533,
+"name": null,
+"highway": "motorway",
+"ref": "F-20",
+"road": "Ruta F-20"
+},
+{
+"lat": -32.753301,
+"lon": -71.252959,
+"name": null,
+"highway": "motorway",
+"ref": "F-20",
+"road": "Ruta F-20"
+},
+{
+"lat": -32.753013,
+"lon": -71.252912,
+"name": null,
+"highway": "motorway",
+"ref": "F-20",
+"road": "Ruta F-20"
+},
+{
+"lat": -37.806601,
+"lon": -72.330864,
+"name": "Peaje Las Maicas",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -37.806513,
+"lon": -72.33094,
+"name": "Peaje Las Maicas",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.90949,
+"lon": -72.342112,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -36.909469,
+"lon": -72.342253,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Sur"
+},
+{
+"lat": -22.695745,
+"lon": -69.188534,
+"name": "Plaza de Peaje Cerritos Bayos",
+"highway": "motorway",
+"ref": "25",
+"road": "Ruta 25"
+},
+{
+"lat": -22.695814,
+"lon": -69.188364,
+"name": "Plaza de Peaje Cerritos Bayos",
+"highway": "motorway",
+"ref": "25",
+"road": "Ruta 25"
+},
+{
+"lat": -37.674673,
+"lon": -72.595214,
+"name": "Peaje Troncal Renaico",
+"highway": "motorway",
+"ref": "180",
+"road": "Ruta Nahuelbuta"
+},
+{
+"lat": -37.674665,
+"lon": -72.595068,
+"name": "Peaje Troncal Renaico",
+"highway": "motorway",
+"ref": "180",
+"road": "Ruta Nahuelbuta"
+},
+{
+"lat": -37.557475,
+"lon": -72.579961,
+"name": "Peaje Troncal Coihue",
+"highway": "motorway",
+"ref": "180",
+"road": "Ruta Nahuelbuta"
+},
+{
+"lat": -37.557361,
+"lon": -72.580008,
+"name": "Peaje Troncal Coihue",
+"highway": "motorway",
+"ref": "180",
+"road": "Ruta Nahuelbuta"
+},
+{
+"lat": -23.451511,
+"lon": -70.431208,
+"name": "Peaje Lateral Acceso Ruta 1 Sector Aeropuerto",
+"highway": null
+},
+{
+"lat": -33.642901,
+"lon": -70.875634,
+"name": "Talagante",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.642939,
+"lon": -70.87549,
+"name": "Talagante",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.495647,
+"lon": -70.777162,
+"name": "Rinconada",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.49553,
+"lon": -70.777166,
+"name": "Rinconada",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.552919,
+"lon": -70.813784,
+"name": "Padre Hurtado",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.587807,
+"lon": -70.84505,
+"name": "Malloco",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.601254,
+"lon": -70.847105,
+"name": "Malloco",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.684821,
+"lon": -70.943167,
+"name": "El Paico",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.684696,
+"lon": -70.943213,
+"name": "El Paico",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.669425,
+"lon": -71.150747,
+"name": "Pomaire",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.647476,
+"lon": -71.360178,
+"name": "Puangue",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -33.647546,
+"lon": -71.360291,
+"name": "Puangue",
+"highway": "motorway",
+"ref": "78",
+"road": "Ruta 78"
+},
+{
+"lat": -34.078116,
+"lon": -71.37089,
+"name": "Peaje Troncal Las Arañas",
+"highway": "trunk",
+"ref": "66",
+"road": "Ruta de la Fruta"
+},
+{
+"lat": -37.479878,
+"lon": -72.462943,
+"name": "Peaje Lateral Santa Fe",
+"highway": "primary",
+"ref": "Q-34",
+"road": "Ruta Q-34"
+},
+{
+"lat": -36.804346,
+"lon": -73.127941,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Puente Industrial"
+},
+{
+"lat": -36.804125,
+"lon": -73.127733,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Puente Industrial"
+},
+{
+"lat": -33.365772,
+"lon": -70.695115,
+"name": "P11 Pedro Fontova - Ruta 5 Norte",
+"highway": "motorway_link",
+"ref": null,
+"road": null
+},
+{
+"lat": -32.714132,
+"lon": -71.439866,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Bypass Puchuncaví"
+},
+{
+"lat": -32.714406,
+"lon": -71.439823,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Bypass Puchuncaví"
+},
+{
+"lat": -32.714329,
+"lon": -71.440055,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Bypass Puchuncaví"
+},
+{
+"lat": -32.714437,
+"lon": -71.439658,
+"name": null,
+"highway": "motorway",
+"ref": null,
+"road": "Bypass Puchuncaví"
+},
+{
+"lat": -33.662511,
+"lon": -70.667891,
+"name": "Troncal Río Maipo",
+"highway": "motorway",
+"ref": "79",
+"road": "Autopista Acceso Sur"
+},
+{
+"lat": -33.662781,
+"lon": -70.668004,
+"name": "Troncal Río Maipo",
+"highway": "motorway",
+"ref": "79",
+"road": "Autopista Acceso Sur"
+},
+{
+"lat": -23.767324,
+"lon": -70.28809,
+"name": "Peaje Ruta Minera",
+"highway": null
+},
+{
+"lat": -38.739643,
+"lon": -72.591974,
+"name": null,
+"highway": null
+},
+{
+"lat": -32.840633,
+"lon": -71.029466,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.840483,
+"lon": -71.029432,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.844016,
+"lon": -70.989277,
+"name": "Peaje Llay Llay",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.843559,
+"lon": -70.989179,
+"name": "Peaje Llay Llay",
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.175347,
+"lon": -71.520935,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+},
+{
+"lat": -32.17532,
+"lon": -71.521041,
+"name": null,
+"highway": "motorway",
+"ref": "5",
+"road": "Ruta 5 Norte"
+}
+]
+}

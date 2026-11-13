@@ -805,6 +805,7 @@
 "region": "Tarapacá",
 "lat": -20.21612,
 "lon": -69.90343,
+"road": "main",
 "concession": "acceso-iquique",
 "plaza": "r16"
 },
@@ -817,6 +818,7 @@
 "region": "Tarapacá",
 "lat": -20.4956,
 "lon": -70.16166,
+"road": "main",
 "concession": "acceso-iquique",
 "plaza": "r1"
 },
@@ -829,6 +831,7 @@
 "region": "Antofagasta",
 "lat": -22.69578,
 "lon": -69.18845,
+"road": "main",
 "concession": "rutas-del-loa",
 "plaza": "troncal"
 },
@@ -841,6 +844,7 @@
 "region": "Antofagasta",
 "lat": -23.31058,
 "lon": -70.41902,
+"road": "main",
 "concession": "antofagasta",
 "plaza": "r1"
 },
@@ -876,6 +880,7 @@
 "region": "Antofagasta",
 "lat": -23.4539,
 "lon": -70.12518,
+"road": "main",
 "concession": "antofagasta",
 "plaza": "r5"
 },
@@ -888,6 +893,7 @@
 "region": "Atacama",
 "lat": -27.34823,
 "lon": -70.63635,
+"road": "main",
 "concession": "vallenar-caldera",
 "plaza": "puerto-viejo"
 },
@@ -911,6 +917,7 @@
 "region": "Atacama",
 "lat": -27.99709,
 "lon": -70.56584,
+"road": "main",
 "concession": "vallenar-caldera",
 "plaza": "totoral"
 },
@@ -923,6 +930,7 @@
 "region": "Atacama",
 "lat": -29.08673,
 "lon": -70.91704,
+"road": "main",
 "concession": "la-serena-vallenar",
 "plaza": "cachiyuyo"
 },
@@ -935,6 +943,7 @@
 "region": "Coquimbo",
 "lat": -29.37106,
 "lon": -71.07312,
+"road": "main",
 "concession": "la-serena-vallenar",
 "plaza": "punta-colorada"
 },
@@ -959,6 +968,7 @@
 "region": "Coquimbo",
 "lat": -30.33035,
 "lon": -71.24419,
+"road": "main",
 "concession": "ruta-43",
 "plaza": "troncal"
 },
@@ -983,7 +993,9 @@
 "region": "Coquimbo",
 "lat": -30.4082,
 "lon": -71.44547,
-"concession": "los-vilos-la-serena"
+"road": "main",
+"concession": "los-vilos-la-serena",
+"plaza": "troncal"
 },
 {
 "id": "cl-017",
@@ -994,7 +1006,9 @@
 "region": "Coquimbo",
 "lat": -30.70748,
 "lon": -71.48889,
-"concession": "los-vilos-la-serena"
+"road": "main",
+"concession": "los-vilos-la-serena",
+"plaza": "troncal"
 },
 {
 "id": "cl-018",
@@ -1005,6 +1019,7 @@
 "region": "Coquimbo",
 "lat": -31.42017,
 "lon": -71.57077,
+"road": "main",
 "concession": "los-vilos-la-serena",
 "plaza": "troncal"
 },
@@ -1017,7 +1032,9 @@
 "region": "Coquimbo",
 "lat": -31.44608,
 "lon": -71.56125,
-"concession": "los-vilos-la-serena"
+"road": "main",
+"concession": "los-vilos-la-serena",
+"plaza": "troncal"
 },
 {
 "id": "cl-020",
@@ -1028,6 +1045,7 @@
 "region": "Coquimbo",
 "lat": -32.17493,
 "lon": -71.52084,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "pichidangui"
 },
@@ -1040,6 +1058,7 @@
 "region": "Valparaíso",
 "lat": -32.62963,
 "lon": -71.23071,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "el-melon"
 },
@@ -1052,6 +1071,7 @@
 "region": "Valparaíso",
 "lat": -32.62968,
 "lon": -71.23073,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "el-melon"
 },
@@ -1064,6 +1084,7 @@
 "region": "Valparaíso",
 "lat": -32.71427,
 "lon": -71.43984,
+"road": "main",
 "concession": "nogales-puchuncavi",
 "plaza": "bypass"
 },
@@ -1076,6 +1097,7 @@
 "region": "Valparaíso",
 "lat": -32.71428,
 "lon": -71.43982,
+"road": "main",
 "concession": "nogales-puchuncavi",
 "plaza": "bypass"
 },
@@ -1088,6 +1110,7 @@
 "region": "Valparaíso",
 "lat": -32.75317,
 "lon": -71.25308,
+"road": "main",
 "concession": "nogales-puchuncavi",
 "plaza": "nogales"
 },
@@ -1100,6 +1123,7 @@
 "region": "Valparaíso",
 "lat": -32.75319,
 "lon": -71.25311,
+"road": "main",
 "concession": "nogales-puchuncavi",
 "plaza": "nogales"
 },
@@ -1112,6 +1136,7 @@
 "region": "Valparaíso",
 "lat": -32.76024,
 "lon": -70.82832,
+"road": "main",
 "concession": "ruta-60-ch",
 "plaza": "panquehue"
 },
@@ -1124,7 +1149,9 @@
 "region": "Valparaíso",
 "lat": -32.76938,
 "lon": -70.7037,
-"concession": "ruta-60-ch"
+"road": "link",
+"concession": "ruta-60-ch",
+"plaza": "lateral"
 },
 {
 "id": "cl-029",
@@ -1135,6 +1162,7 @@
 "region": "Valparaíso",
 "lat": -32.8438,
 "lon": -70.98921,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "las-vegas"
 },
@@ -1147,7 +1175,9 @@
 "region": "Valparaíso",
 "lat": -32.87528,
 "lon": -71.23121,
-"concession": "ruta-60-ch"
+"road": "link",
+"concession": "ruta-60-ch",
+"plaza": "lateral"
 },
 {
 "id": "cl-031",
@@ -1157,7 +1187,8 @@
 "troncal": true,
 "region": "Valparaíso",
 "lat": -32.90068,
-"lon": -70.24891
+"lon": -70.24891,
+"road": "main"
 },
 {
 "id": "cl-032",
@@ -1168,7 +1199,9 @@
 "region": "Valparaíso",
 "lat": -32.90202,
 "lon": -71.24761,
-"concession": "ruta-60-ch"
+"road": "link",
+"concession": "ruta-60-ch",
+"plaza": "lateral"
 },
 {
 "id": "cl-033",
@@ -1179,6 +1212,7 @@
 "region": "Valparaíso",
 "lat": -32.92738,
 "lon": -71.28649,
+"road": "main",
 "concession": "ruta-60-ch"
 },
 {
@@ -1190,6 +1224,7 @@
 "region": "Valparaíso",
 "lat": -32.93498,
 "lon": -71.28831,
+"road": "main",
 "concession": "ruta-60-ch"
 },
 {
@@ -1201,7 +1236,9 @@
 "region": "Valparaíso",
 "lat": -32.97273,
 "lon": -71.30181,
-"concession": "ruta-60-ch"
+"road": "link",
+"concession": "ruta-60-ch",
+"plaza": "lateral"
 },
 {
 "id": "cl-036",
@@ -1212,6 +1249,7 @@
 "region": "Metropolitana",
 "lat": -33.00079,
 "lon": -70.68724,
+"road": "main",
 "concession": "los-libertadores",
 "plaza": "chacabuco"
 },
@@ -1224,7 +1262,9 @@
 "region": "Valparaíso",
 "lat": -33.06168,
 "lon": -71.45729,
-"concession": "ruta-68"
+"road": "link",
+"concession": "ruta-68",
+"plaza": "lateral"
 },
 {
 "id": "cl-038",
@@ -1235,7 +1275,9 @@
 "region": "Valparaíso",
 "lat": -33.1615,
 "lon": -71.54205,
-"concession": "ruta-68"
+"road": "link",
+"concession": "ruta-68",
+"plaza": "lateral"
 },
 {
 "id": "cl-039",
@@ -1246,6 +1288,7 @@
 "region": "Metropolitana",
 "lat": -33.20895,
 "lon": -70.66805,
+"road": "link",
 "concession": "los-libertadores"
 },
 {
@@ -1257,6 +1300,7 @@
 "region": "Metropolitana",
 "lat": -33.23561,
 "lon": -70.75894,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "lampa"
 },
@@ -1269,6 +1313,7 @@
 "region": "Metropolitana",
 "lat": -33.23565,
 "lon": -70.75891,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "lampa"
 },
@@ -1281,6 +1326,7 @@
 "region": "Metropolitana",
 "lat": -33.27008,
 "lon": -70.73546,
+"road": "main",
 "concession": "los-libertadores",
 "plaza": "chicureo"
 },
@@ -1293,6 +1339,7 @@
 "region": "Metropolitana",
 "lat": -33.27994,
 "lon": -70.73899,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "lo-pinto"
 },
@@ -1304,7 +1351,8 @@
 "troncal": false,
 "region": "Metropolitana",
 "lat": -33.28297,
-"lon": -70.70266
+"lon": -70.70266,
+"road": "link"
 },
 {
 "id": "cl-045",
@@ -1315,7 +1363,9 @@
 "region": "Valparaíso",
 "lat": -33.30552,
 "lon": -71.41122,
-"concession": "ruta-68"
+"road": "link",
+"concession": "ruta-68",
+"plaza": "lateral"
 },
 {
 "id": "cl-046",
@@ -1326,6 +1376,7 @@
 "region": "Metropolitana",
 "lat": -33.30999,
 "lon": -70.7018,
+"road": "main",
 "concession": "los-libertadores",
 "plaza": "canteras"
 },
@@ -1338,6 +1389,7 @@
 "region": "Metropolitana",
 "lat": -33.31079,
 "lon": -70.70231,
+"road": "main",
 "concession": "los-libertadores",
 "plaza": "canteras"
 },
@@ -1350,6 +1402,7 @@
 "region": "Metropolitana",
 "lat": -33.31709,
 "lon": -70.72231,
+"road": "main",
 "concession": "santiago-los-vilos",
 "plaza": "la-montana"
 },
@@ -1362,7 +1415,9 @@
 "region": "Valparaíso",
 "lat": -33.3286,
 "lon": -71.39036,
-"concession": "ruta-68"
+"road": "link",
+"concession": "ruta-68",
+"plaza": "lateral"
 },
 {
 "id": "cl-050",
@@ -1373,6 +1428,7 @@
 "region": "Metropolitana",
 "lat": -33.33982,
 "lon": -70.71211,
+"road": "main",
 "concession": "santiago-los-vilos"
 },
 {
@@ -1384,7 +1440,9 @@
 "region": "Valparaíso",
 "lat": -33.34062,
 "lon": -71.36667,
-"concession": "ruta-68"
+"road": "link",
+"concession": "ruta-68",
+"plaza": "lateral"
 },
 {
 "id": "cl-052",
@@ -1394,7 +1452,8 @@
 "troncal": false,
 "region": "Metropolitana",
 "lat": -33.358,
-"lon": -70.70396
+"lon": -70.70396,
+"road": "main"
 },
 {
 "id": "cl-053",
@@ -1415,6 +1474,7 @@
 "region": "Valparaíso",
 "lat": -33.4006,
 "lon": -71.49767,
+"road": "main",
 "concession": "red-vial-litoral",
 "plaza": "f90"
 },
@@ -1437,6 +1497,7 @@
 "region": "Valparaíso",
 "lat": -33.47164,
 "lon": -71.47322,
+"road": "main",
 "concession": "red-vial-litoral"
 },
 {
@@ -1448,6 +1509,7 @@
 "region": "Valparaíso",
 "lat": -33.47296,
 "lon": -71.59922,
+"road": "main",
 "concession": "red-vial-litoral",
 "plaza": "las-cruces"
 },
@@ -1470,6 +1532,7 @@
 "region": "Valparaíso",
 "lat": -33.48246,
 "lon": -71.5817,
+"road": "main",
 "concession": "red-vial-litoral"
 },
 {
@@ -1481,6 +1544,7 @@
 "region": "Metropolitana",
 "lat": -33.58185,
 "lon": -70.61077,
+"road": "link",
 "concession": "santiago-talca",
 "plaza": "gabriela"
 },
@@ -1493,6 +1557,7 @@
 "region": "Metropolitana",
 "lat": -33.6049,
 "lon": -70.60427,
+"road": "link",
 "concession": "santiago-talca",
 "plaza": "tocornal"
 },
@@ -1505,6 +1570,7 @@
 "region": "Valparaíso",
 "lat": -33.64751,
 "lon": -71.36023,
+"road": "main",
 "concession": "ruta-78",
 "plaza": "puangue"
 },
@@ -1517,6 +1583,7 @@
 "region": "Metropolitana",
 "lat": -33.66265,
 "lon": -70.66795,
+"road": "main",
 "concession": "santiago-talca",
 "plaza": "rio-maipo"
 },
@@ -1529,6 +1596,7 @@
 "region": "Valparaíso",
 "lat": -33.66936,
 "lon": -71.15074,
+"road": "main",
 "concession": "ruta-78",
 "plaza": "pomaire"
 },
@@ -1541,6 +1609,7 @@
 "region": "Valparaíso",
 "lat": -33.67336,
 "lon": -71.16764,
+"road": "main",
 "concession": "variante-melipilla",
 "plaza": "troncal"
 },
@@ -1553,7 +1622,9 @@
 "region": "Metropolitana",
 "lat": -33.81841,
 "lon": -70.75125,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-067",
@@ -1564,7 +1635,9 @@
 "region": "Metropolitana",
 "lat": -33.82206,
 "lon": -70.75144,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-068",
@@ -1575,6 +1648,7 @@
 "region": "Valparaíso",
 "lat": -33.82457,
 "lon": -71.52642,
+"road": "main",
 "concession": "ruta-66",
 "plaza": "san-pedro"
 },
@@ -1587,7 +1661,9 @@
 "region": "Metropolitana",
 "lat": -33.85221,
 "lon": -70.74877,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-070",
@@ -1598,6 +1674,7 @@
 "region": "Metropolitana",
 "lat": -33.90761,
 "lon": -70.73116,
+"road": "main",
 "concession": "santiago-talca",
 "plaza": "troncal"
 },
@@ -1610,6 +1687,7 @@
 "region": "Metropolitana",
 "lat": -33.9076,
 "lon": -70.73117,
+"road": "main",
 "concession": "santiago-talca",
 "plaza": "troncal"
 },
@@ -1622,7 +1700,9 @@
 "region": "O'Higgins",
 "lat": -34.03762,
 "lon": -70.70591,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-073",
@@ -1633,6 +1713,7 @@
 "region": "O'Higgins",
 "lat": -34.07812,
 "lon": -71.37089,
+"road": "main",
 "concession": "ruta-66",
 "plaza": "las-aranas"
 },
@@ -1645,7 +1726,9 @@
 "region": "O'Higgins",
 "lat": -34.18243,
 "lon": -70.78954,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-075",
@@ -1656,7 +1739,9 @@
 "region": "O'Higgins",
 "lat": -34.23656,
 "lon": -70.79215,
-"concession": "santiago-talca"
+"road": "main",
+"concession": "santiago-talca",
+"plaza": "troncal"
 },
 {
 "id": "cl-076",
@@ -1667,7 +1752,9 @@
 "region": "O'Higgins",
 "lat": -34.28197,
 "lon": -70.81868,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-077",
@@ -1678,7 +1765,9 @@
 "region": "O'Higgins",
 "lat": -34.28899,
 "lon": -70.82191,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-078",
@@ -1689,7 +1778,9 @@
 "region": "O'Higgins",
 "lat": -34.34632,
 "lon": -70.84074,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-079",
@@ -1700,7 +1791,9 @@
 "region": "O'Higgins",
 "lat": -34.40001,
 "lon": -70.87175,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-080",
@@ -1711,7 +1804,9 @@
 "region": "O'Higgins",
 "lat": -34.40355,
 "lon": -70.87336,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-081",
@@ -1722,7 +1817,9 @@
 "region": "O'Higgins",
 "lat": -34.46577,
 "lon": -70.89775,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-082",
@@ -1733,7 +1830,9 @@
 "region": "O'Higgins",
 "lat": -34.55225,
 "lon": -70.96161,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-083",
@@ -1744,7 +1843,9 @@
 "region": "O'Higgins",
 "lat": -34.57325,
 "lon": -70.97275,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-084",
@@ -1755,7 +1856,9 @@
 "region": "O'Higgins",
 "lat": -34.59053,
 "lon": -70.9695,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-085",
@@ -1766,7 +1869,9 @@
 "region": "O'Higgins",
 "lat": -34.59439,
 "lon": -70.97315,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-086",
@@ -1777,7 +1882,9 @@
 "region": "O'Higgins",
 "lat": -34.6067,
 "lon": -70.9836,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-087",
@@ -1788,7 +1895,9 @@
 "region": "O'Higgins",
 "lat": -34.71432,
 "lon": -71.03056,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-088",
@@ -1799,7 +1908,9 @@
 "region": "O'Higgins",
 "lat": -34.79614,
 "lon": -71.04821,
-"concession": "santiago-talca"
+"road": "main",
+"concession": "santiago-talca",
+"plaza": "troncal"
 },
 {
 "id": "cl-089",
@@ -1810,7 +1921,9 @@
 "region": "O'Higgins",
 "lat": -34.79609,
 "lon": -71.04823,
-"concession": "santiago-talca"
+"road": "main",
+"concession": "santiago-talca",
+"plaza": "troncal"
 },
 {
 "id": "cl-090",
@@ -1821,7 +1934,9 @@
 "region": "O'Higgins",
 "lat": -34.80065,
 "lon": -71.04964,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-091",
@@ -1832,7 +1947,9 @@
 "region": "O'Higgins",
 "lat": -34.88378,
 "lon": -71.15053,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-092",
@@ -1843,7 +1960,9 @@
 "region": "Maule",
 "lat": -34.97661,
 "lon": -71.20574,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-093",
@@ -1854,7 +1973,9 @@
 "region": "Maule",
 "lat": -34.98272,
 "lon": -71.21505,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-094",
@@ -1865,7 +1986,9 @@
 "region": "Maule",
 "lat": -34.99396,
 "lon": -71.2324,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-095",
@@ -1876,7 +1999,9 @@
 "region": "Maule",
 "lat": -35.04998,
 "lon": -71.28116,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-096",
@@ -1887,7 +2012,9 @@
 "region": "Maule",
 "lat": -35.09433,
 "lon": -71.31886,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-097",
@@ -1898,7 +2025,9 @@
 "region": "Maule",
 "lat": -35.13344,
 "lon": -71.35469,
-"concession": "santiago-talca"
+"road": "link",
+"concession": "santiago-talca",
+"plaza": "lateral"
 },
 {
 "id": "cl-098",
@@ -1909,7 +2038,9 @@
 "region": "Maule",
 "lat": -35.20973,
 "lon": -71.4113,
-"concession": "santiago-talca"
+"road": "main",
+"concession": "santiago-talca",
+"plaza": "troncal"
 },
 {
 "id": "cl-099",
@@ -1920,7 +2051,9 @@
 "region": "Maule",
 "lat": -35.2097,
 "lon": -71.41127,
-"concession": "santiago-talca"
+"road": "main",
+"concession": "santiago-talca",
+"plaza": "troncal"
 },
 {
 "id": "cl-100",
@@ -1931,7 +2064,9 @@
 "region": "Maule",
 "lat": -35.48937,
 "lon": -71.65927,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-101",
@@ -1942,7 +2077,9 @@
 "region": "Maule",
 "lat": -35.52128,
 "lon": -71.67671,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-102",
@@ -1953,7 +2090,9 @@
 "region": "Maule",
 "lat": -35.56623,
 "lon": -71.69801,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-103",
@@ -1964,7 +2103,9 @@
 "region": "Maule",
 "lat": -35.5772,
 "lon": -71.70664,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-104",
@@ -1975,7 +2116,9 @@
 "region": "Maule",
 "lat": -35.60094,
 "lon": -71.7064,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-105",
@@ -1996,7 +2139,9 @@
 "region": "Maule",
 "lat": -35.63368,
 "lon": -71.70665,
-"concession": "talca-chillan"
+"road": "main",
+"concession": "talca-chillan",
+"plaza": "troncal"
 },
 {
 "id": "cl-107",
@@ -2007,7 +2152,9 @@
 "region": "Maule",
 "lat": -35.69499,
 "lon": -71.68617,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-108",
@@ -2018,7 +2165,9 @@
 "region": "Maule",
 "lat": -35.83711,
 "lon": -71.63185,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-109",
@@ -2029,7 +2178,9 @@
 "region": "Maule",
 "lat": -36.00919,
 "lon": -71.73243,
-"concession": "talca-chillan"
+"road": "main",
+"concession": "talca-chillan",
+"plaza": "troncal"
 },
 {
 "id": "cl-110",
@@ -2040,7 +2191,9 @@
 "region": "Maule",
 "lat": -36.00919,
 "lon": -71.73244,
-"concession": "talca-chillan"
+"road": "main",
+"concession": "talca-chillan",
+"plaza": "troncal"
 },
 {
 "id": "cl-111",
@@ -2051,7 +2204,9 @@
 "region": "Maule",
 "lat": -36.15724,
 "lon": -71.81389,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-112",
@@ -2062,7 +2217,9 @@
 "region": "Ñuble",
 "lat": -36.41412,
 "lon": -71.94597,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-113",
@@ -2073,7 +2230,9 @@
 "region": "Ñuble",
 "lat": -36.43999,
 "lon": -71.96248,
-"concession": "talca-chillan"
+"road": "link",
+"concession": "talca-chillan",
+"plaza": "lateral"
 },
 {
 "id": "cl-114",
@@ -2084,6 +2243,7 @@
 "region": "Ñuble",
 "lat": -36.52446,
 "lon": -72.07242,
+"road": "main",
 "concession": "talca-chillan",
 "plaza": "lateral"
 },
@@ -2096,7 +2256,9 @@
 "region": "Ñuble",
 "lat": -36.55928,
 "lon": -72.09518,
-"concession": "talca-chillan"
+"road": "main",
+"concession": "talca-chillan",
+"plaza": "troncal"
 },
 {
 "id": "cl-116",
@@ -2107,7 +2269,9 @@
 "region": "Ñuble",
 "lat": -36.62593,
 "lon": -72.16054,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-117",
@@ -2118,6 +2282,7 @@
 "region": "Ñuble",
 "lat": -36.65904,
 "lon": -72.4575,
+"road": "link",
 "concession": "itata",
 "plaza": "nueva-aldea"
 },
@@ -2130,7 +2295,9 @@
 "region": "Ñuble",
 "lat": -36.723,
 "lon": -72.27441,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-119",
@@ -2141,6 +2308,7 @@
 "region": "Biobío",
 "lat": -36.72837,
 "lon": -72.86551,
+"road": "link",
 "concession": "itata",
 "plaza": "rafael"
 },
@@ -2153,6 +2321,7 @@
 "region": "Biobío",
 "lat": -36.73003,
 "lon": -72.86021,
+"road": "main",
 "concession": "itata",
 "plaza": "agua-amarilla"
 },
@@ -2165,6 +2334,7 @@
 "region": "Biobío",
 "lat": -36.73271,
 "lon": -73.08823,
+"road": "main",
 "concession": "interportuaria",
 "plaza": "troncal"
 },
@@ -2177,7 +2347,9 @@
 "region": "Ñuble",
 "lat": -36.74778,
 "lon": -72.28543,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-123",
@@ -2199,7 +2371,9 @@
 "region": "Ñuble",
 "lat": -36.75581,
 "lon": -72.29531,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-125",
@@ -2210,6 +2384,7 @@
 "region": "Biobío",
 "lat": -36.75793,
 "lon": -73.01132,
+"road": "main",
 "concession": "interportuaria",
 "plaza": "troncal"
 },
@@ -2222,6 +2397,7 @@
 "region": "Biobío",
 "lat": -36.76932,
 "lon": -73.0507,
+"road": "main",
 "concession": "interportuaria",
 "plaza": "troncal"
 },
@@ -2234,6 +2410,7 @@
 "region": "Biobío",
 "lat": -36.80424,
 "lon": -73.12784,
+"road": "main",
 "concession": "interportuaria",
 "plaza": "troncal"
 },
@@ -2246,6 +2423,7 @@
 "region": "Ñuble",
 "lat": -36.90932,
 "lon": -72.34215,
+"road": "main",
 "concession": "chillan-collipulli",
 "plaza": "troncal"
 },
@@ -2258,6 +2436,7 @@
 "region": "Ñuble",
 "lat": -36.90948,
 "lon": -72.34218,
+"road": "main",
 "concession": "chillan-collipulli",
 "plaza": "troncal"
 },
@@ -2290,6 +2469,7 @@
 "region": "Biobío",
 "lat": -36.96031,
 "lon": -72.72839,
+"road": "main",
 "concession": "conce-cabrero",
 "plaza": "huinanco"
 },
@@ -2302,6 +2482,7 @@
 "region": "Ñuble",
 "lat": -37.0441,
 "lon": -72.37163,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2314,6 +2495,7 @@
 "region": "Biobío",
 "lat": -37.11128,
 "lon": -72.27138,
+"road": "main",
 "concession": "conce-cabrero",
 "plaza": "puentes-negros"
 },
@@ -2326,6 +2508,7 @@
 "region": "Biobío",
 "lat": -37.14916,
 "lon": -73.17423,
+"road": "main",
 "concession": "ruta-160",
 "plaza": "chivilingo"
 },
@@ -2338,6 +2521,7 @@
 "region": "Biobío",
 "lat": -37.17388,
 "lon": -72.39165,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2350,6 +2534,7 @@
 "region": "Biobío",
 "lat": -37.23461,
 "lon": -72.36916,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2361,7 +2546,8 @@
 "troncal": false,
 "region": "Biobío",
 "lat": -37.3557,
-"lon": -72.84023
+"lon": -72.84023,
+"road": "main"
 },
 {
 "id": "cl-139",
@@ -2372,6 +2558,7 @@
 "region": "Biobío",
 "lat": -37.38405,
 "lon": -73.33984,
+"road": "main",
 "concession": "ruta-160",
 "plaza": "curanilahue"
 },
@@ -2384,6 +2571,7 @@
 "region": "Biobío",
 "lat": -37.38978,
 "lon": -72.36145,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2396,6 +2584,7 @@
 "region": "Biobío",
 "lat": -37.43842,
 "lon": -72.39661,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2408,6 +2597,7 @@
 "region": "Biobío",
 "lat": -37.44277,
 "lon": -72.3995,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2420,6 +2610,7 @@
 "region": "Biobío",
 "lat": -37.47994,
 "lon": -72.46272,
+"road": "main",
 "concession": "nahuelbuta",
 "plaza": "santa-fe"
 },
@@ -2432,6 +2623,7 @@
 "region": "Biobío",
 "lat": -37.48176,
 "lon": -72.40518,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2444,6 +2636,7 @@
 "region": "Biobío",
 "lat": -37.48597,
 "lon": -72.4042,
+"road": "link",
 "concession": "chillan-collipulli",
 "plaza": "lateral"
 },
@@ -2456,7 +2649,9 @@
 "region": "Biobío",
 "lat": -37.53173,
 "lon": -72.32654,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-147",
@@ -2467,6 +2662,7 @@
 "region": "Biobío",
 "lat": -37.55742,
 "lon": -72.57998,
+"road": "main",
 "concession": "nahuelbuta",
 "plaza": "coihue"
 },
@@ -2479,6 +2675,7 @@
 "region": "Biobío",
 "lat": -37.57445,
 "lon": -73.41529,
+"road": "main",
 "concession": "ruta-160",
 "plaza": "pilpilco"
 },
@@ -2491,6 +2688,7 @@
 "region": "Biobío",
 "lat": -37.67467,
 "lon": -72.59514,
+"road": "main",
 "concession": "nahuelbuta",
 "plaza": "renaico"
 },
@@ -2503,7 +2701,9 @@
 "region": "Biobío",
 "lat": -37.70422,
 "lon": -72.25747,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-151",
@@ -2514,6 +2714,7 @@
 "region": "Biobío",
 "lat": -37.80653,
 "lon": -72.33089,
+"road": "main",
 "concession": "chillan-collipulli",
 "plaza": "troncal"
 },
@@ -2526,6 +2727,7 @@
 "region": "Biobío",
 "lat": -37.80656,
 "lon": -72.3309,
+"road": "main",
 "concession": "chillan-collipulli",
 "plaza": "troncal"
 },
@@ -2538,7 +2740,9 @@
 "region": "Biobío",
 "lat": -37.85347,
 "lon": -72.39652,
-"concession": "chillan-collipulli"
+"road": "link",
+"concession": "chillan-collipulli",
+"plaza": "lateral"
 },
 {
 "id": "cl-154",
@@ -2549,7 +2753,9 @@
 "region": "Biobío",
 "lat": -38.23796,
 "lon": -72.35591,
-"concession": "collipulli-temuco"
+"road": "link",
+"concession": "collipulli-temuco",
+"plaza": "lateral"
 },
 {
 "id": "cl-155",
@@ -2560,7 +2766,9 @@
 "region": "Biobío",
 "lat": -38.25112,
 "lon": -72.35913,
-"concession": "collipulli-temuco"
+"road": "link",
+"concession": "collipulli-temuco",
+"plaza": "lateral"
 },
 {
 "id": "cl-156",
@@ -2571,6 +2779,7 @@
 "region": "Biobío",
 "lat": -38.36282,
 "lon": -72.38595,
+"road": "main",
 "concession": "collipulli-temuco",
 "plaza": "troncal"
 },
@@ -2583,7 +2792,9 @@
 "region": "La Araucanía",
 "lat": -38.52235,
 "lon": -72.45626,
-"concession": "collipulli-temuco"
+"road": "link",
+"concession": "collipulli-temuco",
+"plaza": "lateral"
 },
 {
 "id": "cl-158",
@@ -2594,7 +2805,9 @@
 "region": "La Araucanía",
 "lat": -38.54704,
 "lon": -72.45769,
-"concession": "collipulli-temuco"
+"road": "link",
+"concession": "collipulli-temuco",
+"plaza": "lateral"
 },
 {
 "id": "cl-159",
@@ -2604,7 +2817,8 @@
 "troncal": true,
 "region": "La Araucanía",
 "lat": -38.55834,
-"lon": -71.4977
+"lon": -71.4977,
+"road": "main"
 },
 {
 "id": "cl-160",
@@ -2615,7 +2829,9 @@
 "region": "La Araucanía",
 "lat": -38.66449,
 "lon": -72.48877,
-"concession": "collipulli-temuco"
+"road": "main",
+"concession": "collipulli-temuco",
+"plaza": "troncal"
 },
 {
 "id": "cl-161",
@@ -2626,7 +2842,9 @@
 "region": "La Araucanía",
 "lat": -38.77515,
 "lon": -72.58128,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-162",
@@ -2637,6 +2855,7 @@
 "region": "La Araucanía",
 "lat": -38.78238,
 "lon": -72.61169,
+"road": "main",
 "concession": "temuco-rio-bueno",
 "plaza": "lateral"
 },
@@ -2649,6 +2868,7 @@
 "region": "La Araucanía",
 "lat": -38.91576,
 "lon": -72.62414,
+"road": "main",
 "concession": "temuco-rio-bueno",
 "plaza": "troncal"
 },
@@ -2661,7 +2881,9 @@
 "region": "La Araucanía",
 "lat": -38.99129,
 "lon": -72.64688,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-165",
@@ -2672,7 +2894,9 @@
 "region": "La Araucanía",
 "lat": -39.35883,
 "lon": -72.63973,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-166",
@@ -2683,7 +2907,9 @@
 "region": "La Araucanía",
 "lat": -39.35933,
 "lon": -72.62093,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-167",
@@ -2694,7 +2920,9 @@
 "region": "La Araucanía",
 "lat": -39.4423,
 "lon": -72.77148,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-168",
@@ -2705,7 +2933,9 @@
 "region": "La Araucanía",
 "lat": -39.48038,
 "lon": -72.80644,
-"concession": "temuco-rio-bueno"
+"road": "main",
+"concession": "temuco-rio-bueno",
+"plaza": "troncal"
 },
 {
 "id": "cl-169",
@@ -2716,7 +2946,9 @@
 "region": "Los Ríos",
 "lat": -40.08739,
 "lon": -72.86466,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-170",
@@ -2727,6 +2959,7 @@
 "region": "Los Ríos",
 "lat": -40.22813,
 "lon": -72.93879,
+"road": "main",
 "concession": "temuco-rio-bueno",
 "plaza": "lateral"
 },
@@ -2739,7 +2972,9 @@
 "region": "Los Ríos",
 "lat": -40.32214,
 "lon": -72.98679,
-"concession": "temuco-rio-bueno"
+"road": "link",
+"concession": "temuco-rio-bueno",
+"plaza": "lateral"
 },
 {
 "id": "cl-172",
@@ -2750,7 +2985,9 @@
 "region": "Los Ríos",
 "lat": -40.41311,
 "lon": -73.00171,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-173",
@@ -2761,7 +2998,9 @@
 "region": "Los Ríos",
 "lat": -40.56191,
 "lon": -73.10036,
-"concession": "rio-bueno-puerto-montt"
+"road": "main",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "troncal"
 },
 {
 "id": "cl-174",
@@ -2772,7 +3011,9 @@
 "region": "Los Ríos",
 "lat": -40.57942,
 "lon": -73.09814,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-175",
@@ -2783,7 +3024,9 @@
 "region": "Los Ríos",
 "lat": -40.58385,
 "lon": -73.09765,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-176",
@@ -2794,7 +3037,9 @@
 "region": "Los Ríos",
 "lat": -40.59004,
 "lon": -73.09805,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-177",
@@ -2805,7 +3050,9 @@
 "region": "Los Ríos",
 "lat": -40.59483,
 "lon": -73.09911,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-178",
@@ -2816,7 +3063,9 @@
 "region": "Los Lagos",
 "lat": -40.80851,
 "lon": -73.16751,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-179",
@@ -2827,7 +3076,9 @@
 "region": "Los Lagos",
 "lat": -40.9014,
 "lon": -73.15225,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-180",
@@ -2838,7 +3089,9 @@
 "region": "Los Lagos",
 "lat": -40.95911,
 "lon": -73.13393,
-"concession": "rio-bueno-puerto-montt"
+"road": "main",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "troncal"
 },
 {
 "id": "cl-181",
@@ -2849,7 +3102,9 @@
 "region": "Los Lagos",
 "lat": -41.00914,
 "lon": -73.12033,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-182",
@@ -2860,7 +3115,9 @@
 "region": "Los Lagos",
 "lat": -41.12008,
 "lon": -73.06256,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-183",
@@ -2871,7 +3128,9 @@
 "region": "Los Lagos",
 "lat": -41.21455,
 "lon": -73.05595,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-184",
@@ -2882,7 +3141,9 @@
 "region": "Los Lagos",
 "lat": -41.21931,
 "lon": -73.05256,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-185",
@@ -2893,7 +3154,9 @@
 "region": "Los Lagos",
 "lat": -41.25548,
 "lon": -73.02187,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-186",
@@ -2904,7 +3167,9 @@
 "region": "Los Lagos",
 "lat": -41.27218,
 "lon": -73.00743,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-187",
@@ -2915,7 +3180,9 @@
 "region": "Los Lagos",
 "lat": -41.27675,
 "lon": -73.00736,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-188",
@@ -2926,7 +3193,9 @@
 "region": "Los Lagos",
 "lat": -41.31632,
 "lon": -73.01074,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-189",
@@ -2937,7 +3206,9 @@
 "region": "Los Lagos",
 "lat": -41.3198,
 "lon": -73.00761,
-"concession": "rio-bueno-puerto-montt"
+"road": "link",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "lateral"
 },
 {
 "id": "cl-190",
@@ -2959,7 +3230,9 @@
 "region": "Los Lagos",
 "lat": -41.43868,
 "lon": -72.95636,
-"concession": "rio-bueno-puerto-montt"
+"road": "main",
+"concession": "rio-bueno-puerto-montt",
+"plaza": "troncal"
 },
 {
 "id": "cl-192",
@@ -2970,7 +3243,9 @@
 "region": "Los Lagos",
 "lat": -41.51683,
 "lon": -73.07798,
-"concession": "puerto-montt-pargua"
+"road": "link",
+"concession": "puerto-montt-pargua",
+"plaza": "trapen"
 },
 {
 "id": "cl-193",
@@ -2981,7 +3256,9 @@
 "region": "Los Lagos",
 "lat": -41.58922,
 "lon": -73.23338,
-"concession": "puerto-montt-pargua"
+"road": "link",
+"concession": "puerto-montt-pargua",
+"plaza": "maullin"
 },
 {
 "id": "cl-194",
@@ -2992,7 +3269,9 @@
 "region": "Los Lagos",
 "lat": -41.61704,
 "lon": -73.27378,
-"concession": "puerto-montt-pargua"
+"road": "main",
+"concession": "puerto-montt-pargua",
+"plaza": "troncal"
 },
 {
 "id": "cl-195",
@@ -3003,7 +3282,9 @@
 "region": "Los Lagos",
 "lat": -41.72345,
 "lon": -73.374,
-"concession": "puerto-montt-pargua"
+"road": "link",
+"concession": "puerto-montt-pargua",
+"plaza": "calbuco"
 }
 ]
 }
