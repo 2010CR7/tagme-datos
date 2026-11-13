@@ -1,10 +1,36 @@
 # tagme-datos
 
-Datos públicos que la app TagMe descarga sin enviar información de las personas.
+Datos públicos que usa la app [TagMe](https://github.com/2010CR7/tagme-android). La app solo descarga estos archivos y nunca envía información de las personas.
 
-- `ticker.json`: noticias de la barra "EN VIVO". Editar este archivo actualiza la barra de todos los usuarios en máximo 30 minutos, sin publicar una nueva versión de la app.
+## Qué hay
 
-Formato de cada elemento de `items`:
+| Archivo | Contenido | Se actualiza |
+|---|---|---|
+| `tarifas/2026.json` | Cuadros tarifarios 2026 de las autopistas urbanas de Santiago, Ruta 68 y Ruta 78, con fuente, vigencia, feriados y pórticos | A mano con `tools/build_tarifas.py` (subir `version`, formato `AAAA.MM.DD`) |
+| `osm/peajes_cl.json` | 195 peajes y pórticos de regiones con su concesión y plaza (174 con tarifa exacta) y las tarifas 2026 del MOP | `tools/build_peajes.py` |
+| `osm/porticos_rm.json` | Coordenadas y sentido de cobro de cada pórtico urbano | `tools/build_osm.py` |
+| `tarifas/rutas_rm.json` | Red vial detallada de Santiago para calcular rutas | `tools/build_osm.py` |
+| `tarifas/rutas_cl.bin` | Red de autopistas, troncales y rutas principales de Chile (87.703 nodos, 24.735 km) | `tools/build_red_cl.py` |
+| `osm/peajes_vias.json` | Tipo de vía de cada caseta (en la ruta o en un enlace) | `tools/build_red_cl.py` |
+| rama `vivo`: `noticias.json` | 15 titulares recientes de medios chilenos | Cada 30 min |
+| rama `vivo`: `bencinas.json` | Precios de combustibles de todas las estaciones del país | Cada 3 h |
+| `ticker.json` | Avisos fijos de la barra "EN VIVO" | A mano |
+
+## Flujos automáticos (GitHub Actions)
+
+- **Datos en vivo** (`datos-vivos.yml`, cada 30 min): `tools/build_noticias.py` lee Google News filtrado a medios chilenos; `tools/build_bencinas.py` consulta la API de la Comisión Nacional de Energía cada 3 horas. Publica ambos en la rama `vivo`. Las credenciales de la CNE viven solo como secretos del repositorio (`CNE_EMAIL`, `CNE_PASSWORD`). Si llegan menos de 50 estaciones, no se publica nada.
+- **Pórticos desde OpenStreetMap** (`osm-porticos.yml`, manual): descarga pórticos, casetas y autopistas de la RM desde Overpass a la rama `osm`.
+- **Red vial de Chile** (`red-vial-chile.yml`, manual): baja el extracto de Chile de Geofabrik, lo filtra con osmium y arma `rutas_cl.bin` y `peajes_vias.json` en la rama `osm`.
+
+## Cómo se asigna cada peaje de regiones
+
+`tools/peajes_regiones.py` tiene las tarifas transcritas de los 28 PDF interurbanos del MOP (https://concesiones.mop.gob.cl/peajes-y-porticos/). Cada peaje se asigna a su concesión por nombre o zona, y a su plaza por nombre, por un punto conocido o por la vía donde está la caseta: en la carretera es troncal y en un enlace es lateral.
+
+## Reajuste de enero
+
+Los cuadros cambian cada 1 de enero. Para 2027: actualizar los montos en `tools/build_tarifas.py` y `tools/peajes_regiones.py`, subir `version`, regenerar y copiar los archivos a `app/src/main/resources` de la app.
+
+## Formato de `ticker.json`
 
 | Campo | Obligatorio | Valores |
 |---|---|---|
@@ -13,21 +39,14 @@ Formato de cada elemento de `items`:
 | `date` | no | `AAAA-MM-DD` |
 | `url` | no | solo `https://`, fuente oficial o de prensa |
 
-Reglas: solo información pública y verificable; lenguaje neutral ("posible inconsistencia", nunca acusaciones).
-
-## Tarifas oficiales
-
-- `tarifas/2026.json`: cuadros tarifarios 2026 de cada autopista, transcritos de los PDF oficiales (ver `sources`). La app lo trae incluido y descarga la versión nueva cuando cambia `version`.
-- `tools/build_tarifas.py`: genera el archivo. Para actualizar: corregir los datos en el script y ejecutar `python3 tools/build_tarifas.py`. Subir `version` (formato `AAAA.MM.DD`).
-- Pendientes: Costanera Norte, Ruta 68 y autopistas interurbanas fuera de la RM.
-
 ## Reportes de la comunidad
 
-Los reportes de cobros mayores a la tarifa oficial llegan como issues con la etiqueta `reporte-tarifa`. No contienen patente, RUT ni fecha exacta. Antes de confirmarlos se revisan contra el cuadro oficial; el lenguaje es siempre neutral ("posible cobro a revisar").
+Los cobros mayores a la tarifa oficial llegan como issues con la etiqueta `reporte-tarifa`, sin patente, RUT ni fecha exacta. Se revisan contra el cuadro oficial antes de confirmarlos.
 
-## Mapa de pórticos y red de rutas (OpenStreetMap)
+## Reglas
 
-- `osm/porticos_rm.json`: coordenadas y rumbo de cobro de cada pórtico, cruzados con `tarifas/2026.json` por su código.
-- `tarifas/rutas_rm.json`: red simplificada de autopistas, troncales y enlaces de la RM para calcular rutas en el teléfono.
-- Se generan con el flujo **Pórticos desde OpenStreetMap** (descarga desde Overpass a la rama `osm`) y `python3 tools/build_osm.py <rm_gantries.json> <rm_roads.json>`; luego `python3 tools/build_tarifas.py` agrega las coordenadas al paquete.
-- Datos © colaboradores de OpenStreetMap, licencia [ODbL](https://www.openstreetmap.org/copyright).
+Solo información pública y verificable, con fuente. Lenguaje neutro ("posible inconsistencia", nunca acusaciones).
+
+## Licencias
+
+Datos de mapa, pórticos y red vial © colaboradores de OpenStreetMap, licencia [ODbL](https://www.openstreetmap.org/copyright). Tarifas: documentos públicos de cada concesionaria y del MOP.
