@@ -26,7 +26,8 @@ jobs:
         if: hashFiles('nuevos.md') != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh issue create --title "Tarifas $ANIO publicadas: actualizar TagMe" --body-file nuevos.md
+        run: |
+          gh issue create --title "Tarifas $ANIO publicadas, actualizar TagMe" --body-file nuevos.md
       - name: Guardar lo visto
         run: |
           mkdir -p /tmp/v && cp vistos.json /tmp/v/ && cd /tmp/v
