@@ -1,0 +1,36 @@
+name: Vigilar tarifas nuevas
+
+# Cada lunes y jueves revisa si las concesionarias o el MOP publicaron cuadros del año siguiente
+# y abre un aviso (issue) con los enlaces. Así el reajuste de enero no pasa inadvertido.
+on:
+  schedule:
+    - cron: "17 12 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar sitios oficiales
+        run: |
+          git fetch origin vigilancia:vigilancia 2>/dev/null && git show vigilancia:vistos.json > vistos.json 2>/dev/null || echo "[]" > vistos.json
+          ANIO=$(( $(date +%Y) + 1 ))
+          python3 tools/vigilar_tarifas.py vistos.json "$ANIO"
+          echo "ANIO=$ANIO" >> "$GITHUB_ENV"
+      - name: Abrir aviso si hay documentos nuevos
+        if: hashFiles('nuevos.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue create --title "Tarifas $ANIO publicadas: actualizar TagMe" --body-file nuevos.md
+      - name: Guardar lo visto
+        run: |
+          mkdir -p /tmp/v && cp vistos.json /tmp/v/ && cd /tmp/v
+          git init -q -b vigilancia
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Documentos vistos $(date -u +%F)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" vigilancia

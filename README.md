@@ -1,6 +1,8 @@
 # tagme-datos
 
-Datos públicos que usa la app [TagMe](https://github.com/2010CR7/tagme-android). La app solo descarga estos archivos y nunca envía información de las personas.
+Datos públicos y páginas legales de **TagMe v1**, la app Android para conocer el costo de los peajes en todo Chile ([código de la app](https://github.com/2010CR7/tagme-android)). La app solo descarga estos archivos y nunca envía información de las personas.
+
+**Páginas públicas** (GitHub Pages, carpeta `docs/`): [inicio](https://2010cr7.github.io/tagme-datos/), [política de privacidad](https://2010cr7.github.io/tagme-datos/privacidad.html), [términos de uso](https://2010cr7.github.io/tagme-datos/terminos.html) y [eliminar cuenta y datos](https://2010cr7.github.io/tagme-datos/eliminar-datos.html). Son las direcciones que se informan en Google Play.
 
 ## Qué hay
 
@@ -15,11 +17,13 @@ Datos públicos que usa la app [TagMe](https://github.com/2010CR7/tagme-android)
 | rama `vivo`: `noticias.json` | 15 titulares recientes de medios chilenos | Cada 30 min |
 | rama `vivo`: `bencinas.json` | Precios de combustibles de todas las estaciones del país | Cada 3 h |
 | `ticker.json` | Avisos fijos de la barra "EN VIVO" | A mano |
+| `docs/` | Páginas públicas: inicio, privacidad, términos y eliminación de datos | A mano |
 
 ## Flujos automáticos (GitHub Actions)
 
 - **Datos en vivo** (`datos-vivos.yml`, cada 30 min): `tools/build_noticias.py` lee Google News filtrado a medios chilenos; `tools/build_bencinas.py` consulta la API de la Comisión Nacional de Energía cada 3 horas. Publica ambos en la rama `vivo`. Las credenciales de la CNE viven solo como secretos del repositorio (`CNE_EMAIL`, `CNE_PASSWORD`). Si llegan menos de 50 estaciones, no se publica nada.
 - **Pórticos desde OpenStreetMap** (`osm-porticos.yml`, manual): descarga pórticos, casetas y autopistas de la RM desde Overpass a la rama `osm`.
+- **Vigilar tarifas nuevas** (`vigilar-tarifas.yml`, lunes y jueves): `tools/vigilar_tarifas.py` revisa las páginas de tarifas de las concesionarias y del MOP; si aparecen documentos del año siguiente, abre un issue con los enlaces. Lo visto se guarda en la rama `vigilancia`.
 - **Red vial de Chile** (`red-vial-chile.yml`, manual): baja el extracto de Chile de Geofabrik, lo filtra con osmium y arma `rutas_cl.bin` y `peajes_vias.json` en la rama `osm`.
 
 ## Cómo se asigna cada peaje de regiones
@@ -28,7 +32,7 @@ Datos públicos que usa la app [TagMe](https://github.com/2010CR7/tagme-android)
 
 ## Reajuste de enero
 
-Los cuadros cambian cada 1 de enero. Para 2027: actualizar los montos en `tools/build_tarifas.py` y `tools/peajes_regiones.py`, subir `version`, regenerar y copiar los archivos a `app/src/main/resources` de la app.
+Los cuadros cambian cada 1 de enero. El flujo "Vigilar tarifas nuevas" avisa con un issue cuando se publican. Para 2027: actualizar los montos en `tools/build_tarifas.py` y `tools/peajes_regiones.py`, subir `version`, regenerar y copiar los archivos a `app/src/main/resources` de la app.
 
 ## Formato de `ticker.json`
 
