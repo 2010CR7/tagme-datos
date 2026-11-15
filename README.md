@@ -21,7 +21,7 @@ Datos públicos y páginas legales de **TagMe v1**, la app Android para conocer 
 
 ## Flujos automáticos (GitHub Actions)
 
-- **Datos en vivo** (`datos-vivos.yml`, cada 30 min): `tools/build_noticias.py` lee Google News filtrado a medios chilenos; `tools/build_bencinas.py` consulta la API de la Comisión Nacional de Energía cada 3 horas. Publica ambos en la rama `vivo`. Las credenciales de la CNE viven solo como secretos del repositorio (`CNE_EMAIL`, `CNE_PASSWORD`). Si llegan menos de 50 estaciones, no se publica nada.
+- **Datos en vivo** (`datos-vivos.yml`, programado cada 30 min; GitHub lo corre varias veces al día): `tools/build_noticias.py` lee Google News filtrado a medios chilenos; `tools/build_bencinas.py` consulta la API de la Comisión Nacional de Energía cuando los precios guardados tienen más de 3 horas. Publica ambos en la rama `vivo`. Las credenciales de la CNE viven solo como secretos del repositorio (`CNE_EMAIL`, `CNE_PASSWORD`). Si llegan menos de 50 estaciones, no se publica nada.
 - **Pórticos desde OpenStreetMap** (`osm-porticos.yml`, manual): descarga pórticos, casetas y autopistas de la RM desde Overpass a la rama `osm`.
 - **Vigilar tarifas nuevas** (`vigilar-tarifas.yml`, lunes y jueves): `tools/vigilar_tarifas.py` revisa las páginas de tarifas de las concesionarias y del MOP; si aparecen documentos del año siguiente, abre un issue con los enlaces. Lo visto se guarda en la rama `vigilancia`.
 - **Red vial de Chile** (`red-vial-chile.yml`, manual): baja el extracto de Chile de Geofabrik, lo filtra con osmium y arma `rutas_cl.bin` y `peajes_vias.json` en la rama `osm`.

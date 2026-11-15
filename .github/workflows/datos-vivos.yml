@@ -19,16 +19,19 @@ jobs:
           mkdir -p vivo
           if git fetch --depth 1 origin vivo; then git --work-tree=vivo checkout origin/vivo -- . || true; fi
           ls -la vivo
-      - name: Noticias (cada 30 minutos)
+      - name: Noticias
         run: python3 tools/build_noticias.py vivo/noticias.json || echo "noticias sin cambios"
-      - name: Bencinas (cada 3 horas, si están los secretos)
+      - name: Bencinas (cada 3 horas aprox., si están los secretos)
         env:
           CNE_EMAIL: ${{ secrets.CNE_EMAIL }}
           CNE_PASSWORD: ${{ secrets.CNE_PASSWORD }}
         run: |
           if [ -z "$CNE_EMAIL" ]; then echo "Sin secretos CNE: se omite"; exit 0; fi
-          if [ -f vivo/bencinas.json ] && [ "${{ github.event_name }}" = "schedule" ] && [ $(( $(date +%H) % 3 )) -ne 0 -o $(date +%M) -ge 30 ]; then echo "Bencinas al día"; exit 0; fi
-          python3 tools/build_bencinas.py vivo/bencinas.new.json && mv vivo/bencinas.new.json vivo/bencinas.json || echo "bencinas: se mantiene lo anterior"
+          # GitHub no siempre corre el horario cada 30 min: se decide por la antigüedad real de los precios (≥ 2 h 50 min).
+          last=$(cat vivo/bencinas.stamp 2>/dev/null || echo 0)
+          age=$(( $(date +%s) - last ))
+          if [ -f vivo/bencinas.json ] && [ "${{ github.event_name }}" = "schedule" ] && [ "$age" -lt 10200 ]; then echo "Bencinas al día (hace $((age / 60)) min)"; exit 0; fi
+          if python3 tools/build_bencinas.py vivo/bencinas.new.json; then mv vivo/bencinas.new.json vivo/bencinas.json; date +%s > vivo/bencinas.stamp; else echo "bencinas: se mantiene lo anterior"; fi
       - name: Publicar en la rama vivo (un solo commit, sin historial)
         run: |
           cd vivo
