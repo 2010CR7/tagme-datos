@@ -15,7 +15,7 @@ jobs:
   vigilar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Revisar sitios oficiales
         run: |
           git fetch origin vigilancia:vigilancia 2>/dev/null && git show vigilancia:vistos.json > vistos.json 2>/dev/null || echo "[]" > vistos.json

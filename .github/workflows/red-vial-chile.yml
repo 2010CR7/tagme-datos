@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Instalar osmium
         run: sudo apt-get update -q && sudo apt-get install -y -q osmium-tool
       - name: Descargar el extracto de Chile (Geofabrik)
