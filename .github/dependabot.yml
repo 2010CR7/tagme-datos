@@ -1,0 +1,7 @@
+# Dependabot revisa cada semana las acciones de GitHub usadas en los flujos y abre un PR si hay una versión corregida.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
