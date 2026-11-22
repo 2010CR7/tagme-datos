@@ -1,7 +1,8 @@
 name: Datos en vivo (noticias y bencinas)
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Minutos 7 y 37: GitHub descarta más ejecuciones programadas en la hora en punto y la media hora.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
